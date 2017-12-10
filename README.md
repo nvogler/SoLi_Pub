@@ -1,2 +1,2 @@
-# w205_final_project
-Socioeconomics of Light: Remote sensing consumption potential using night time lights
+# W205 Final Project: SoLi - Socioeconomics of Light
+Remote sensing consumption potential using night time lights
