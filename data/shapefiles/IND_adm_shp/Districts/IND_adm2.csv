@@ -1,0 +1,668 @@
+OBJECTID,ID_0,ISO,NAME_0,ID_1,NAME_1,ID_2,NAME_2,HASC_2,CCN_2,CCA_2,TYPE_2,ENGTYPE_2,NL_NAME_2,VARNAME_2,,,id_1,id_2,obj_id
+1,105,IND,India,1,Andaman and Nicobar,1,Nicobar Islands,IN.AN.NI,NA,,District,District,,,,,1,1,1
+2,105,IND,India,1,Andaman and Nicobar,2,North and Middle Andaman,IN.AN.NM,NA,,District,District,,,,,1,2,2
+3,105,IND,India,1,Andaman and Nicobar,3,South Andaman,IN.AN.SA,NA,,District,District,,,,,1,3,3
+4,105,IND,India,2,Andhra Pradesh,4,Anantapur,IN.AD.AN,NA,,District,District,,"Anantpur, Ananthapur",,,2,4,4
+5,105,IND,India,2,Andhra Pradesh,5,Chittoor,IN.AD.CH,NA,,District,District,,Chitoor|Chittor,,,2,5,5
+6,105,IND,India,2,Andhra Pradesh,6,East Godavari,IN.AD.EG,NA,,District,District,,,,,2,6,6
+7,105,IND,India,2,Andhra Pradesh,7,Guntur,IN.AD.GU,NA,,District,District,,,,,2,7,7
+8,105,IND,India,2,Andhra Pradesh,8,Krishna,IN.AD.KR,NA,,District,District,,Kistna,,,2,8,8
+9,105,IND,India,2,Andhra Pradesh,9,Kurnool,IN.AD.KU,NA,,District,District,,,,,2,9,9
+10,105,IND,India,2,Andhra Pradesh,10,Nellore,IN.AD.NE,NA,,District,District,,,,,2,10,10
+11,105,IND,India,2,Andhra Pradesh,11,Prakasam,IN.AD.PR,NA,,District,District,,,,,2,11,11
+12,105,IND,India,2,Andhra Pradesh,12,Srikakulam,IN.AD.SR,NA,,District,District,,Srikakulum,,,2,12,12
+13,105,IND,India,2,Andhra Pradesh,13,Visakhapatnam,IN.AD.VS,NA,,District,District,,Fisakapatnam|Vizagapatam|Visakhapatnam,,,2,13,13
+14,105,IND,India,2,Andhra Pradesh,14,Vizianagaram,IN.AD.VS,NA,,District,District,,Vizianagram,,,2,14,14
+15,105,IND,India,2,Andhra Pradesh,15,West Godavari,IN.AD.WG,NA,,District,District,,,,,2,15,15
+16,105,IND,India,2,Andhra Pradesh,16,Y.S.R., ,NA,,District,District,,,,,2,16,16
+17,105,IND,India,3,Arunachal Pradesh,17,Anjaw,IN.AR.AJ,NA,,District,District,,Lohit Frontier Division,,,3,17,17
+18,105,IND,India,3,Arunachal Pradesh,18,Changlang,IN.AR.CH,NA,,District,District,,,,,3,18,18
+19,105,IND,India,3,Arunachal Pradesh,19,Dibang Valley,IN.AR.DV,NA,,District,District,,,,,3,19,19
+20,105,IND,India,3,Arunachal Pradesh,20,East Kameng,IN.AR.EK,NA,,District,District,,,,,3,20,20
+21,105,IND,India,3,Arunachal Pradesh,21,East Siang,IN.AR.ES,NA,,District,District,,,,,3,21,21
+22,105,IND,India,3,Arunachal Pradesh,22,Kurung Kumey,IN.AR.KK,NA,,District,District,,,,,3,22,22
+23,105,IND,India,3,Arunachal Pradesh,23,Lohit,IN.AR.LH,NA,,District,District,,Lohit Frontier Division,,,3,23,23
+24,105,IND,India,3,Arunachal Pradesh,24,Longding,,NA,,District,District,,<Null>,,,3,24,24
+25,105,IND,India,3,Arunachal Pradesh,25,Lower Dibang Valley,IN.AR.DL,NA,,District,District,,,,,3,25,25
+26,105,IND,India,3,Arunachal Pradesh,26,Lower Subansiri,IN.AR.LS,NA,,District,District,,,,,3,26,26
+27,105,IND,India,3,Arunachal Pradesh,27,Namsai,,NA,,District,District,,<Null>,,,3,27,27
+28,105,IND,India,3,Arunachal Pradesh,28,Papum Pare,IN.AR.PA,NA,,District,District,,,,,3,28,28
+29,105,IND,India,3,Arunachal Pradesh,29,Tawang,IN.AR.TA,NA,,District,District,,,,,3,29,29
+30,105,IND,India,3,Arunachal Pradesh,30,Tirap,IN.AR.TI,NA,,District,District,,Tirap Frontier Tract,,,3,30,30
+31,105,IND,India,3,Arunachal Pradesh,31,Upper Siang,IN.AR.US,NA,,District,District,,,,,3,31,31
+32,105,IND,India,3,Arunachal Pradesh,32,Upper Subansiri,IN.AR.UB,NA,,District,District,,,,,3,32,32
+33,105,IND,India,3,Arunachal Pradesh,33,West Kameng,IN.AR.WK,NA,,District,District,,,,,3,33,33
+34,105,IND,India,3,Arunachal Pradesh,34,West Siang,IN.AR.WS,NA,,District,District,,,,,3,34,34
+35,105,IND,India,4,Assam,35,Baksa,IN.AS.BK,NA,,District,District,,,,,4,35,35
+36,105,IND,India,4,Assam,36,Barpeta,IN.AS.BP,NA,,District,District,,,,,4,36,36
+37,105,IND,India,4,Assam,37,Bongaigaon,IN.AS.BG,NA,,District,District,,,,,4,37,37
+38,105,IND,India,4,Assam,38,Cachar,IN.AS.CA,NA,,District,District,,,,,4,38,38
+39,105,IND,India,4,Assam,39,Chirang,IN.AS.CH,NA,,District,District,,,,,4,39,39
+40,105,IND,India,4,Assam,40,Darrang,IN.AS.DR,NA,,District,District,,,,,4,40,40
+41,105,IND,India,4,Assam,41,Dhemaji,IN.AS.DM,NA,,District,District,,,,,4,41,41
+42,105,IND,India,4,Assam,42,Dhubri,IN.AS.DB,NA,,District,District,,,,,4,42,42
+43,105,IND,India,4,Assam,43,Dibrugarh,IN.AS.DI,NA,,District,District,,,,,4,43,43
+44,105,IND,India,4,Assam,44,Dima Hasao,,NA,,District,District,,,,,4,44,44
+45,105,IND,India,4,Assam,45,Goalpara,IN.AS.GP,NA,,District,District,,,,,4,45,45
+46,105,IND,India,4,Assam,46,Golaghat,IN.AS.GG,NA,,District,District,,,,,4,46,46
+47,105,IND,India,4,Assam,47,Hailakandi,IN.AS.HA,NA,,District,District,,,,,4,47,47
+48,105,IND,India,4,Assam,48,Jorhat,IN.AS.JO,NA,,District,District,,,,,4,48,48
+49,105,IND,India,4,Assam,49,Kamrup Metropolitan,IN.AS.KM,NA,,District,District,,"Kampur, Ramrup",,,4,49,49
+50,105,IND,India,4,Assam,50,Kamrup,IN.AS.KU,NA,,District,District,,"Kampur, Ramrup",,,4,50,50
+51,105,IND,India,4,Assam,51,Karbi Anglong,IN.AS.KA,NA,,District,District,,"Mikir Hills , Korbi Anglong",,,4,51,51
+52,105,IND,India,4,Assam,52,Karimganj,IN.AS.KR,NA,,District,District,,,,,4,52,52
+53,105,IND,India,4,Assam,53,Kokrajhar,IN.AS.KJ,NA,,District,District,,,,,4,53,53
+54,105,IND,India,4,Assam,54,Lakhimpur,IN.AS.LA,NA,,District,District,,"North Lakhimpur, Lakhmipur, Lakimpur",,,4,54,54
+55,105,IND,India,4,Assam,55,Morigaon,IN.AS.MA,NA,,District,District,,,,,4,55,55
+56,105,IND,India,4,Assam,56,Nagaon,IN.AS.NG,NA,,District,District,,Nowgong,,,4,56,56
+57,105,IND,India,4,Assam,57,Nalbari,IN.AS.NB,NA,,District,District,,,,,4,57,57
+58,105,IND,India,4,Assam,58,Sivasagar,IN.AS.SI,NA,,District,District,,Sivasagar,,,4,58,58
+59,105,IND,India,4,Assam,59,Sonitpur,IN.AS.SN,NA,,District,District,,Sontipur,,,4,59,59
+60,105,IND,India,4,Assam,60,Tinsukia,IN.AS.TI,NA,,District,District,,,,,4,60,60
+61,105,IND,India,4,Assam,61,Udalguri,IN.AS.UD,NA,,District,District,,,,,4,61,61
+62,105,IND,India,5,Bihar,62,Araria,IN.BR.AR,NA,,District,District,,,,,5,62,62
+63,105,IND,India,5,Bihar,63,Arwal,IN.BR.AW,NA,,District,District,,,,,5,63,63
+64,105,IND,India,5,Bihar,64,Aurangabad,IN.BR.AU,NA,,District,District,,,,,5,64,64
+65,105,IND,India,5,Bihar,65,Banka,IN.BR.BA,NA,,District,District,,,,,5,65,65
+66,105,IND,India,5,Bihar,66,Begusarai,IN.BR.BE,NA,,District,District,,,,,5,66,66
+67,105,IND,India,5,Bihar,67,Bhagalpur,IN.BR.BG,NA,,District,District,,Bhagaipur,,,5,67,67
+68,105,IND,India,5,Bihar,68,Bhojpur,IN.BR.BJ,NA,,District,District,,,,,5,68,68
+69,105,IND,India,5,Bihar,69,Buxar,IN.BR.BU,NA,,District,District,,,,,5,69,69
+70,105,IND,India,5,Bihar,70,Darbhanga,IN.BR.DA,NA,,District,District,,,,,5,70,70
+71,105,IND,India,5,Bihar,71,Gaya,IN.BR.GA,NA,,District,District,,,,,5,71,71
+72,105,IND,India,5,Bihar,72,Gopalganj,IN.BR.GO,NA,,District,District,,,,,5,72,72
+73,105,IND,India,5,Bihar,73,Jamui,IN.BR.JA,NA,,District,District,,Zamui,,,5,73,73
+74,105,IND,India,5,Bihar,74,Jehanabad,IN.BR.JH,NA,,District,District,,,,,5,74,74
+75,105,IND,India,5,Bihar,75,Kaimur,IN.BR.KM,NA,,District,District,,Kaimur,,,5,75,75
+76,105,IND,India,5,Bihar,76,Katihar,IN.BR.KT,NA,,District,District,,Kathihar,,,5,76,76
+77,105,IND,India,5,Bihar,77,Khagaria,IN.BR.KH,NA,,District,District,,,,,5,77,77
+78,105,IND,India,5,Bihar,78,Kishanganj,IN.BR.KI,NA,,District,District,,,,,5,78,78
+79,105,IND,India,5,Bihar,79,Lakhisarai,IN.BR.LA,NA,,District,District,,,,,5,79,79
+80,105,IND,India,5,Bihar,80,Madhepura,IN.BR.MP,NA,,District,District,,Madhipura,,,5,80,80
+81,105,IND,India,5,Bihar,81,Madhubani,IN.BR.MB,NA,,District,District,,,,,5,81,81
+82,105,IND,India,5,Bihar,82,Munger,IN.BR.MG,NA,,District,District,,Monghyr,,,5,82,82
+83,105,IND,India,5,Bihar,83,Muzaffarpur,IN.BR.MZ,NA,,District,District,,Muzafarpur,,,5,83,83
+84,105,IND,India,5,Bihar,84,Nalanda,IN.BR.NL,NA,,District,District,,,,,5,84,84
+85,105,IND,India,5,Bihar,85,Nawada,IN.BR.NW,NA,,District,District,,Nawadah,,,5,85,85
+86,105,IND,India,5,Bihar,86,Pashchim Champaran,IN.BR.WC,NA,,District,District,,"West Champaran, Paschimi Champaran, Paschim-Champaram",,,5,86,86
+87,105,IND,India,5,Bihar,87,Patna,IN.BR.PA,NA,,District,District,,,,,5,87,87
+88,105,IND,India,5,Bihar,88,Purba Champaran,IN.BR.EC,NA,,District,District,,"East Champaran, Purbi Champaran, Purba Champaram",,,5,88,88
+89,105,IND,India,5,Bihar,89,Purnia,IN.BR.PU,NA,,District,District,,Purnea,,,5,89,89
+90,105,IND,India,5,Bihar,90,Rohtas,IN.BR.RO,NA,,District,District,,,,,5,90,90
+91,105,IND,India,5,Bihar,91,Saharsa,IN.BR.SH,NA,,District,District,,,,,5,91,91
+92,105,IND,India,5,Bihar,92,Samastipur,IN.BR.SM,NA,,District,District,,,,,5,92,92
+93,105,IND,India,5,Bihar,93,Saran,IN.BR.SR,NA,,District,District,,,,,5,93,93
+94,105,IND,India,5,Bihar,94,Sheikhpura,IN.BR.SP,NA,,District,District,,,,,5,94,94
+95,105,IND,India,5,Bihar,95,Sheohar,IN.BR.SO,NA,,District,District,,,,,5,95,95
+96,105,IND,India,5,Bihar,96,Sitamarhi,IN.BR.ST,NA,,District,District,,,,,5,96,96
+97,105,IND,India,5,Bihar,97,Siwan,IN.BR.SW,NA,,District,District,,Sivan,,,5,97,97
+98,105,IND,India,5,Bihar,98,Supaul,IN.BR.SU,NA,,District,District,,,,,5,98,98
+99,105,IND,India,5,Bihar,99,Vaishali,IN.BR.VA,NA,,District,District,,,,,5,99,99
+100,105,IND,India,6,Chandigarh,100,Chandigarh,IN.CH.CH,NA,,District,District,,,,,6,100,100
+101,105,IND,India,7,Chhattisgarh,101,Baloda Bazar,,NA,,District,District,,,,,7,101,101
+102,105,IND,India,7,Chhattisgarh,102,Balod,,NA,,District,District,,,,,7,102,102
+103,105,IND,India,7,Chhattisgarh,103,Balrampur,IN.CT.BP,NA,,District,District,,,,,7,103,103
+104,105,IND,India,7,Chhattisgarh,104,Bastar,IN.CT.BT,NA,,District,District,,Baster,,,7,104,104
+105,105,IND,India,7,Chhattisgarh,105,Bemetara,,NA,,District,District,,,,,7,105,105
+106,105,IND,India,7,Chhattisgarh,106,Bijapur,IN.CT.BJ,NA,,District,District,,,,,7,106,106
+107,105,IND,India,7,Chhattisgarh,107,Bilaspur,IN.CT.BI,NA,,District,District,,,,,7,107,107
+108,105,IND,India,7,Chhattisgarh,108,Dantewada,IN.CT.DW,NA,,District,District,,,,,7,108,108
+109,105,IND,India,7,Chhattisgarh,109,Dhamtari,IN.CT.DH,NA,,District,District,,,,,7,109,109
+110,105,IND,India,7,Chhattisgarh,110,Durg,IN.CT.DU,NA,,District,District,,,,,7,110,110
+111,105,IND,India,7,Chhattisgarh,111,Gariaband,,NA,,District,District,,,,,7,111,111
+112,105,IND,India,7,Chhattisgarh,112,Janjgir-Champa,IN.CT.JC,NA,,District,District,,Janjgir,,,7,112,112
+113,105,IND,India,7,Chhattisgarh,113,Jashpur,IN.CT.JA,NA,,District,District,,,,,7,113,113
+114,105,IND,India,7,Chhattisgarh,114,Kabeerdham,,NA,,District,District,,Kabirdham|Kabeerdham,,,7,114,114
+115,105,IND,India,7,Chhattisgarh,115,Kondagaon,,NA,,District,District,,<Null>,,,7,115,115
+116,105,IND,India,7,Chhattisgarh,116,Korba,IN.CT.KB,NA,,District,District,,,,,7,116,116
+117,105,IND,India,7,Chhattisgarh,117,Koriya,IN.CT.KJ,NA,,District,District,,,,,7,117,117
+118,105,IND,India,7,Chhattisgarh,118,Mahasamund,IN.CT.MA,NA,,District,District,,,,,7,118,118
+119,105,IND,India,7,Chhattisgarh,119,Mungeli,IN.CT.MG,NA,,District,District,,,,,7,119,119
+120,105,IND,India,7,Chhattisgarh,120,Narayanpur,IN.CT.NA,NA,,District,District,,<Null>,,,7,120,120
+121,105,IND,India,7,Chhattisgarh,121,Raigarh,IN.CT.RG,NA,,District,District,,,,,7,121,121
+122,105,IND,India,7,Chhattisgarh,122,Raipur,IN.CT.RP,NA,,District,District,,,,,7,122,122
+123,105,IND,India,7,Chhattisgarh,123,Rajnandgaon,IN.CT.RN,NA,,District,District,,,,,7,123,123
+124,105,IND,India,7,Chhattisgarh,124,Sukma,,NA,,District,District,,,,,7,124,124
+125,105,IND,India,7,Chhattisgarh,125,Surajpur,,NA,,District,District,,,,,7,125,125
+126,105,IND,India,7,Chhattisgarh,126,Surguja,IN.CT.SU,NA,,District,District,,,,,7,126,126
+127,105,IND,India,7,Chhattisgarh,127,Uttar Bastar Kanker, ,NA,,District,District,,,,,7,127,127
+128,105,IND,India,8,Dadra and Nagar Haveli,128,Dadra and Nagar Haveli,IN.DN.DN,NA,,District,District,,,,,8,128,128
+129,105,IND,India,9,Daman and Diu,129,Daman,IN.DD.DA,NA,,District,District,,,,,9,129,129
+130,105,IND,India,9,Daman and Diu,130,Diu,IN.DD.DI,NA,,District,District,,,,,9,130,130
+131,105,IND,India,10,Goa,131,North Goa,IN.GA.NG,NA,,District,District,,,,,10,131,131
+132,105,IND,India,10,Goa,132,South Goa,IN.GA.SG,NA,,District,District,,,,,10,132,132
+133,105,IND,India,11,Gujarat,133,Ahmadabad,IN.GJ.AH,NA,,District,District,,,,,11,133,133
+134,105,IND,India,11,Gujarat,134,Amreli,IN.GJ.AM,NA,,District,District,,Amereli,,,11,134,134
+135,105,IND,India,11,Gujarat,135,Anand,IN.GJ.AN,NA,,District,District,,,,,11,135,135
+136,105,IND,India,11,Gujarat,136,Aravalli,,NA,,District,District,,<Null>,,,11,136,136
+137,105,IND,India,11,Gujarat,137,Banas Kantha,IN.GJ.BK,NA,,District,District,,"Banaskantha, Palanpur",,,11,137,137
+138,105,IND,India,11,Gujarat,138,Bharuch,IN.GJ.BR,NA,,District,District,,,,,11,138,138
+139,105,IND,India,11,Gujarat,139,Bhavnagar,IN.GJ.BV,NA,,District,District,,Bhaunagar,,,11,139,139
+140,105,IND,India,11,Gujarat,140,Botad,,NA,,District,District,,<Null>,,,11,140,140
+141,105,IND,India,11,Gujarat,141,Chhota Udaipur,,NA,,District,District,,<Null>,,,11,141,141
+142,105,IND,India,11,Gujarat,142,Dahod,IN.GJ.DA,NA,,District,District,,Dohad,,,11,142,142
+143,105,IND,India,11,Gujarat,143,Devbhumi Dwarka,,NA,,District,District,,,,,11,143,143
+144,105,IND,India,11,Gujarat,144,Gandhinagar,IN.GJ.GA,NA,,District,District,,,,,11,144,144
+145,105,IND,India,11,Gujarat,145,Gir Somnath,,NA,,District,District,,,,,11,145,145
+146,105,IND,India,11,Gujarat,146,Jamnagar,IN.GJ.JA,NA,,District,District,,,,,11,146,146
+147,105,IND,India,11,Gujarat,147,Junagadh,IN.GJ.JU,NA,,District,District,,,,,11,147,147
+148,105,IND,India,11,Gujarat,148,Kachchh,IN.GJ.KA,NA,,District,District,,Kutch,,,11,148,148
+149,105,IND,India,11,Gujarat,149,Kheda,IN.GJ.KH,NA,,District,District,,Kaira,,,11,149,149
+150,105,IND,India,11,Gujarat,150,Mahesana,IN.GJ.MA,NA,,District,District,,"Mehasana, Mehsana",,,11,150,150
+151,105,IND,India,11,Gujarat,151,Mahisagar,,NA,,District,District,,<Null>,,,11,151,151
+152,105,IND,India,11,Gujarat,152,Morbi,,NA,,District,District,,,,,11,152,152
+153,105,IND,India,11,Gujarat,153,Narmada,IN.GJ.NR,NA,,District,District,,,,,11,153,153
+154,105,IND,India,11,Gujarat,154,Navsari,IN.GJ.NV,NA,,District,District,,,,,11,154,154
+155,105,IND,India,11,Gujarat,155,Panch Mahals,IN.GJ.PM,NA,,District,District,,"Godhra, Panchmahal",,,11,155,155
+156,105,IND,India,11,Gujarat,156,Patan,IN.GJ.PA,NA,,District,District,,,,,11,156,156
+157,105,IND,India,11,Gujarat,157,Porbandar,IN.GJ.PO,NA,,District,District,,,,,11,157,157
+158,105,IND,India,11,Gujarat,158,Rajkot,IN.GJ.RA,NA,,District,District,,,,,11,158,158
+159,105,IND,India,11,Gujarat,159,Sabar Kantha,IN.GJ.SK,NA,,District,District,,"Sabarkantha, Himatnagar",,,11,159,159
+160,105,IND,India,11,Gujarat,160,Surat,IN.GJ.SR,NA,,District,District,,,,,11,160,160
+161,105,IND,India,11,Gujarat,161,Surendranagar,IN.GJ.SN,NA,,District,District,,,,,11,161,161
+162,105,IND,India,11,Gujarat,162,Tapi,IN.GJ.TP,NA,,District,District,,,,,11,162,162
+163,105,IND,India,11,Gujarat,163,The Dangs,IN.GJ.DG,NA,,District,District,,Dangs,,,11,163,163
+164,105,IND,India,11,Gujarat,164,Vadodara,IN.GJ.VD,NA,,District,District,,Baroda,,,11,164,164
+165,105,IND,India,11,Gujarat,165,Valsad,IN.GJ.VL,NA,,District,District,,Bulsar|Walsad,,,11,165,165
+166,105,IND,India,12,Haryana,166,Ambala,IN.HR.AM,NA,,District,District,,,,,12,166,166
+167,105,IND,India,12,Haryana,167,Bhiwani,IN.HR.BH,NA,,District,District,,,,,12,167,167
+168,105,IND,India,12,Haryana,168,Faridabad,IN.HR.FD,NA,,District,District,,,,,12,168,168
+169,105,IND,India,12,Haryana,169,Fatehabad,IN.HR.FT,NA,,District,District,,,,,12,169,169
+170,105,IND,India,12,Haryana,170,Gurgaon,IN.HR.GG,NA,,District,District,,,,,12,170,170
+171,105,IND,India,12,Haryana,171,Hisar,IN.HR.HI,NA,,District,District,,,,,12,171,171
+172,105,IND,India,12,Haryana,172,Jhajjar,IN.HR.JH,NA,,District,District,,,,,12,172,172
+173,105,IND,India,12,Haryana,173,Jind,IN.HR.JI,NA,,District,District,,,,,12,173,173
+174,105,IND,India,12,Haryana,174,Kaithal,IN.HR.KT,NA,,District,District,,,,,12,174,174
+175,105,IND,India,12,Haryana,175,Karnal,IN.HR.KR,NA,,District,District,,,,,12,175,175
+176,105,IND,India,12,Haryana,176,Kurukshetra,IN.HR.KU,NA,,District,District,,,,,12,176,176
+177,105,IND,India,12,Haryana,177,Mahendragarh,IN.HR.MA,NA,,District,District,,"Mahendergarh, Mahendragarth, Mohindargarh, Mohindergarh",,,12,177,177
+178,105,IND,India,12,Haryana,178,Mewat,IN.HR.MW,NA,,District,District,,,,,12,178,178
+179,105,IND,India,12,Haryana,179,Palwal,IN.HR.PW,NA,,District,District,,,,,12,179,179
+180,105,IND,India,12,Haryana,180,Panchkula,IN.HR.PK,NA,,District,District,,,,,12,180,180
+181,105,IND,India,12,Haryana,181,Panipat,IN.HR.PP,NA,,District,District,,,,,12,181,181
+182,105,IND,India,12,Haryana,182,Rewari,IN.HR.RE,NA,,District,District,,,,,12,182,182
+183,105,IND,India,12,Haryana,183,Rohtak,IN.HR.RO,NA,,District,District,,,,,12,183,183
+184,105,IND,India,12,Haryana,184,Sirsa,IN.HR.SI,NA,,District,District,,Sirasa,,,12,184,184
+185,105,IND,India,12,Haryana,185,Sonipat,IN.HR.SO,NA,,District,District,,Sonipat,,,12,185,185
+186,105,IND,India,12,Haryana,186,Yamunanagar,IN.HR.YN,NA,,District,District,,,,,12,186,186
+187,105,IND,India,13,Himachal Pradesh,187,Bilaspur,IN.HP.BI,NA,,District,District,,,,,13,187,187
+188,105,IND,India,13,Himachal Pradesh,188,Chamba,IN.HP.CH,NA,,District,District,,,,,13,188,188
+189,105,IND,India,13,Himachal Pradesh,189,Hamirpur,IN.HP.HA,NA,,District,District,,,,,13,189,189
+190,105,IND,India,13,Himachal Pradesh,190,Kangra,IN.HP.KA,NA,,District,District,,,,,13,190,190
+191,105,IND,India,13,Himachal Pradesh,191,Kinnaur,IN.HP.KI,NA,,District,District,,Kalpa,,,13,191,191
+192,105,IND,India,13,Himachal Pradesh,192,Kullu,IN.HP.KU,NA,,District,District,,,,,13,192,192
+193,105,IND,India,13,Himachal Pradesh,193,Lahul & Spiti,IN.HP.LS,NA,,District,District,,,,,13,193,193
+194,105,IND,India,13,Himachal Pradesh,194,Mandi,IN.HP.MA,NA,,District,District,,,,,13,194,194
+195,105,IND,India,13,Himachal Pradesh,195,Shimla,IN.HP.SH,NA,,District,District,,Simla,,,13,195,195
+196,105,IND,India,13,Himachal Pradesh,196,Sirmaur,IN.HP.SI,NA,,District,District,,Sirmour|Sirmoor|Sirmur,,,13,196,196
+197,105,IND,India,13,Himachal Pradesh,197,Solan,IN.HP.SO,NA,,District,District,,,,,13,197,197
+198,105,IND,India,13,Himachal Pradesh,198,Una,IN.HP.UN,NA,,District,District,,,,,13,198,198
+199,105,IND,India,14,Jammu and Kashmir,199,Anantnag,IN.JK.AG,NA,,District,District,,,,,14,199,199
+200,105,IND,India,14,Jammu and Kashmir,200,Badgam,IN.JK.BD,NA,,District,District,,,,,14,200,200
+201,105,IND,India,14,Jammu and Kashmir,201,Bandipore,IN.JK.BP,NA,,District,District,,,,,14,201,201
+202,105,IND,India,14,Jammu and Kashmir,202,Baramulla,IN.JK.BL,NA,,District,District,,,,,14,202,202
+203,105,IND,India,14,Jammu and Kashmir,203,Doda,IN.JK.DD,NA,,District,District,,,,,14,203,203
+204,105,IND,India,14,Jammu and Kashmir,204,Ganderbal,IN.JK.GA,NA,,District,District,,,,,14,204,204
+205,105,IND,India,14,Jammu and Kashmir,205,Jammu,IN.JK.JM,NA,,District,District,,,,,14,205,205
+206,105,IND,India,14,Jammu and Kashmir,206,Kargil,IN.JK.KR,NA,,District,District,,,,,14,206,206
+207,105,IND,India,14,Jammu and Kashmir,207,Kathua,IN.JK.KA,NA,,District,District,,,,,14,207,207
+208,105,IND,India,14,Jammu and Kashmir,208,Kishtwar,IN.JK.KW,NA,,District,District,,,,,14,208,208
+209,105,IND,India,14,Jammu and Kashmir,209,Kulgam,IN.JK.KG,NA,,District,District,,,,,14,209,209
+210,105,IND,India,14,Jammu and Kashmir,210,Kupwara,IN.JK.KU,NA,,District,District,,,,,14,210,210
+211,105,IND,India,14,Jammu and Kashmir,211,Leh (Ladakh),IN.JK.LE,NA,,District,District,,,,,14,211,211
+212,105,IND,India,14,Jammu and Kashmir,212,Poonch,IN.JK.PO,NA,,District,District,,Punch,,,14,212,212
+213,105,IND,India,14,Jammu and Kashmir,213,Pulwama,IN.JK.PW,NA,,District,District,,,,,14,213,213
+214,105,IND,India,14,Jammu and Kashmir,214,Rajouri,IN.JK.RA,NA,,District,District,,,,,14,214,214
+215,105,IND,India,14,Jammu and Kashmir,215,Ramban,IN.JK.RB,NA,,District,District,,,,,14,215,215
+216,105,IND,India,14,Jammu and Kashmir,216,Reasi,IN.JK.RE,NA,,District,District,,,,,14,216,216
+217,105,IND,India,14,Jammu and Kashmir,217,Samba,IN.JK.SM,NA,,District,District,,,,,14,217,217
+218,105,IND,India,14,Jammu and Kashmir,218,Shupiyan,IN.JK.SH,NA,,District,District,,,,,14,218,218
+219,105,IND,India,14,Jammu and Kashmir,219,Srinagar,IN.JK.SN,NA,,District,District,,,,,14,219,219
+220,105,IND,India,14,Jammu and Kashmir,220,Udhampur,IN.JK.UM,NA,,District,District,,,,,14,220,220
+221,105,IND,India,15,Jharkhand,221,Bokaro,IN.JH.BO,NA,,District,District,,,,,15,221,221
+222,105,IND,India,15,Jharkhand,222,Chatra,IN.JH.CH,NA,,District,District,,,,,15,222,222
+223,105,IND,India,15,Jharkhand,223,Deoghar,IN.JH.DE,NA,,District,District,,Devghar,,,15,223,223
+224,105,IND,India,15,Jharkhand,224,Dhanbad,IN.JH.DH,NA,,District,District,,,,,15,224,224
+225,105,IND,India,15,Jharkhand,225,Dumka,IN.JH.DM,NA,,District,District,,"Santhal Pargana, Santal Parganas",,,15,225,225
+226,105,IND,India,15,Jharkhand,226,Garhwa,IN.JH.GA,NA,,District,District,,,,,15,226,226
+227,105,IND,India,15,Jharkhand,227,Giridih,IN.JH.GI,NA,,District,District,,,,,15,227,227
+228,105,IND,India,15,Jharkhand,228,Godda,IN.JH.GO,NA,,District,District,,Goodda,,,15,228,228
+229,105,IND,India,15,Jharkhand,229,Gumla,IN.JH.GM,NA,,District,District,,,,,15,229,229
+230,105,IND,India,15,Jharkhand,230,Hazaribagh,IN.JH.HZ,NA,,District,District,,,,,15,230,230
+231,105,IND,India,15,Jharkhand,231,Jamtara,IN.JH.JA,NA,,District,District,,,,,15,231,231
+232,105,IND,India,15,Jharkhand,232,Khunti,IN.JH.KH,NA,,District,District,,,,,15,232,232
+233,105,IND,India,15,Jharkhand,233,Kodarma,IN.JH.KO,NA,,District,District,,,,,15,233,233
+234,105,IND,India,15,Jharkhand,234,Latehar,IN.JH.LA,NA,,District,District,,,,,15,234,234
+235,105,IND,India,15,Jharkhand,235,Lohardaga,IN.JH.LO,NA,,District,District,,Lohargada,,,15,235,235
+236,105,IND,India,15,Jharkhand,236,Pakur,IN.JH.PK,NA,,District,District,,,,,15,236,236
+237,105,IND,India,15,Jharkhand,237,Palamu,IN.JH.PM,NA,,District,District,,,,,15,237,237
+238,105,IND,India,15,Jharkhand,238,Pashchimi Singhbhum,IN.JH.WS,NA,,District,District,,Singhbhum West,,,15,238,238
+239,105,IND,India,15,Jharkhand,239,Purbi Singhbhum,IN.JH.ES,NA,,District,District,,Singhbhum East,,,15,239,239
+240,105,IND,India,15,Jharkhand,240,Ramgarh,IN.JH.RM,NA,,District,District,,,,,15,240,240
+241,105,IND,India,15,Jharkhand,241,Ranchi,IN.JH.RN,NA,,District,District,,,,,15,241,241
+242,105,IND,India,15,Jharkhand,242,Sahibganj,IN.JH.SA,NA,,District,District,,,,,15,242,242
+243,105,IND,India,15,Jharkhand,243,Saraikela-kharsawan,IN.JH.SK,NA,,District,District,,,,,15,243,243
+244,105,IND,India,15,Jharkhand,244,Simdega,IN.JH.SD,NA,,District,District,,,,,15,244,244
+245,105,IND,India,16,Karnataka,245,Bagalkot,IN.KA.BK,NA,,District,District,,,,,16,245,245
+246,105,IND,India,16,Karnataka,246,Bangalore Rural,IN.KA.BU,NA,,District,District,,,,,16,246,246
+247,105,IND,India,16,Karnataka,247,Bangalore,IN.KA.BN,NA,,District,District,,,,,16,247,247
+248,105,IND,India,16,Karnataka,248,Belgaum,IN.KA.BG,NA,,District,District,,,,,16,248,248
+249,105,IND,India,16,Karnataka,249,Bellary,IN.KA.BL,NA,,District,District,,,,,16,249,249
+250,105,IND,India,16,Karnataka,250,Bidar,IN.KA.BD,NA,,District,District,,,,,16,250,250
+251,105,IND,India,16,Karnataka,251,Bijapur,IN.KA.BJ,NA,,District,District,,,,,16,251,251
+252,105,IND,India,16,Karnataka,252,Chamrajnagar,IN.KA.CJ,NA,,District,District,,,,,16,252,252
+253,105,IND,India,16,Karnataka,253,Chikballapura,IN.KA.CB,NA,,District,District,,,,,16,253,253
+254,105,IND,India,16,Karnataka,254,Chikmagalur,IN.KA.CK,NA,,District,District,,Chikmaglur|Kadur,,,16,254,254
+255,105,IND,India,16,Karnataka,255,Chitradurga,IN.KA.CT,NA,,District,District,,Chitaldroog|Chitaldrug,,,16,255,255
+256,105,IND,India,16,Karnataka,256,Dakshina Kannada,IN.KA.DK,NA,,District,District,,,,,16,256,256
+257,105,IND,India,16,Karnataka,257,Davanagere,IN.KA.DA,NA,,District,District,,,,,16,257,257
+258,105,IND,India,16,Karnataka,258,Dharwad,IN.KA.DH,NA,,District,District,,"Dhawad, Dharwar",,,16,258,258
+259,105,IND,India,16,Karnataka,259,Gadag,IN.KA.GA,NA,,District,District,,,,,16,259,259
+260,105,IND,India,16,Karnataka,260,Gulbarga,IN.KA.GB,NA,,District,District,,,,,16,260,260
+261,105,IND,India,16,Karnataka,261,Hassan,IN.KA.HS,NA,,District,District,,,,,16,261,261
+262,105,IND,India,16,Karnataka,262,Haveri,IN.KA.HV,NA,,District,District,,,,,16,262,262
+263,105,IND,India,16,Karnataka,263,Kodagu,IN.KA.KD,NA,,District,District,,Coorg,,,16,263,263
+264,105,IND,India,16,Karnataka,264,Kolar,IN.KA.KO,NA,,District,District,,,,,16,264,264
+265,105,IND,India,16,Karnataka,265,Koppal,IN.KA.KP,NA,,District,District,,,,,16,265,265
+266,105,IND,India,16,Karnataka,266,Mandya,IN.KA.MA,NA,,District,District,,,,,16,266,266
+267,105,IND,India,16,Karnataka,267,Mysore,IN.KA.MY,NA,,District,District,,,,,16,267,267
+268,105,IND,India,16,Karnataka,268,Raichur,IN.KA.RA,NA,,District,District,,,,,16,268,268
+269,105,IND,India,16,Karnataka,269,Ramanagara,IN.KA.RM,NA,,District,District,,,,,16,269,269
+270,105,IND,India,16,Karnataka,270,Shimoga,IN.KA.SH,NA,,District,District,,,,,16,270,270
+271,105,IND,India,16,Karnataka,271,Tumkur,IN.KA.TU,NA,,District,District,,,,,16,271,271
+272,105,IND,India,16,Karnataka,272,Udupi,IN.KA.UD,NA,,District,District,,,,,16,272,272
+273,105,IND,India,16,Karnataka,273,Uttara Kannada,IN.KA.UK,NA,,District,District,,,,,16,273,273
+274,105,IND,India,16,Karnataka,274,Yadgir,IN.KA.YD,NA,,District,District,,,,,16,274,274
+275,105,IND,India,17,Kerala,275,Alappuzha,IN.KL.AL,NA,,District,District,,Alleppey,,,17,275,275
+276,105,IND,India,17,Kerala,276,Ernakulam,IN.KL.ER,NA,,District,District,,,,,17,276,276
+277,105,IND,India,17,Kerala,277,Idukki,IN.KL.ID,NA,,District,District,,Idikki,,,17,277,277
+278,105,IND,India,17,Kerala,278,Kannur,IN.KL.KN,NA,,District,District,,Cannanore,,,17,278,278
+279,105,IND,India,17,Kerala,279,Kasaragod,IN.KL.KS,NA,,District,District,,,,,17,279,279
+280,105,IND,India,17,Kerala,280,Kollam,IN.KL.KL,NA,,District,District,,Quilon,,,17,280,280
+281,105,IND,India,17,Kerala,281,Kottayam,IN.KL.KT,NA,,District,District,,,,,17,281,281
+282,105,IND,India,17,Kerala,282,Kozhikode,IN.KL.KZ,NA,,District,District,,Calicut,,,17,282,282
+283,105,IND,India,17,Kerala,283,Malappuram,IN.KL.MA,NA,,District,District,,,,,17,283,283
+284,105,IND,India,17,Kerala,284,Palakkad,IN.KL.PL,NA,,District,District,,Palghat,,,17,284,284
+285,105,IND,India,17,Kerala,285,Pathanamthitta,IN.KL.PT,NA,,District,District,,,,,17,285,285
+286,105,IND,India,17,Kerala,286,Thiruvananthapuram,IN.KL.TV,NA,,District,District,,Trivandrum,,,17,286,286
+287,105,IND,India,17,Kerala,287,Thrissur,IN.KL.TS,NA,,District,District,,Trichur,,,17,287,287
+288,105,IND,India,17,Kerala,288,Wayanad,IN.KL.WA,NA,,District,District,,Wynaad|Wynad,,,17,288,288
+289,105,IND,India,18,Lakshadweep,289,Lakshadweep,IN.LD.LD,NA,,District,District,,,,,18,289,289
+290,105,IND,India,19,Madhya Pradesh,290,Agar Malwa,,NA,,District,District,,,,,19,290,290
+291,105,IND,India,19,Madhya Pradesh,291,Alirajpur,IN.MP.AR,NA,,District,District,,,,,19,291,291
+292,105,IND,India,19,Madhya Pradesh,292,Anuppur,IN.MP.AP,NA,,District,District,,,,,19,292,292
+293,105,IND,India,19,Madhya Pradesh,293,Ashoknagar,IN.MP.AN,NA,,District,District,,,,,19,293,293
+294,105,IND,India,19,Madhya Pradesh,294,Balaghat,IN.MP.BL,NA,,District,District,,,,,19,294,294
+295,105,IND,India,19,Madhya Pradesh,295,Barwani,IN.MP.BR,NA,,District,District,,,,,19,295,295
+296,105,IND,India,19,Madhya Pradesh,296,Betul,IN.MP.BE,NA,,District,District,,,,,19,296,296
+297,105,IND,India,19,Madhya Pradesh,297,Bhind,IN.MP.BD,NA,,District,District,,,,,19,297,297
+298,105,IND,India,19,Madhya Pradesh,298,Bhopal,IN.MP.BP,NA,,District,District,,,,,19,298,298
+299,105,IND,India,19,Madhya Pradesh,299,Burhanpur,IN.MP.BU,NA,,District,District,,,,,19,299,299
+300,105,IND,India,19,Madhya Pradesh,300,Chhatarpur,IN.MP.CT,NA,,District,District,,Chhatapur|Chatarpur,,,19,300,300
+301,105,IND,India,19,Madhya Pradesh,301,Chhindwara,IN.MP.CN,NA,,District,District,,,,,19,301,301
+302,105,IND,India,19,Madhya Pradesh,302,Damoh,IN.MP.DM,NA,,District,District,,,,,19,302,302
+303,105,IND,India,19,Madhya Pradesh,303,Datia,IN.MP.DT,NA,,District,District,,,,,19,303,303
+304,105,IND,India,19,Madhya Pradesh,304,Dewas,IN.MP.DE,NA,,District,District,,,,,19,304,304
+305,105,IND,India,19,Madhya Pradesh,305,Dhar,IN.MP.DH,NA,,District,District,,,,,19,305,305
+306,105,IND,India,19,Madhya Pradesh,306,Dindori,IN.MP.DI,NA,,District,District,,,,,19,306,306
+307,105,IND,India,19,Madhya Pradesh,307,East Nimar,IN.MP.EN,NA,,District,District,,Khandwa,,,19,307,307
+308,105,IND,India,19,Madhya Pradesh,308,Guna,IN.MP.GN,NA,,District,District,,Goona,,,19,308,308
+309,105,IND,India,19,Madhya Pradesh,309,Gwalior,IN.MP.GW,NA,,District,District,,"Gird, Gird Gwalior",,,19,309,309
+310,105,IND,India,19,Madhya Pradesh,310,Harda,IN.MP.HA,NA,,District,District,,,,,19,310,310
+311,105,IND,India,19,Madhya Pradesh,311,Hoshangabad,IN.MP.HO,NA,,District,District,,,,,19,311,311
+312,105,IND,India,19,Madhya Pradesh,312,Indore,IN.MP.IN,NA,,District,District,,,,,19,312,312
+313,105,IND,India,19,Madhya Pradesh,313,Jabalpur,IN.MP.JA,NA,,District,District,,Jubbulpore,,,19,313,313
+314,105,IND,India,19,Madhya Pradesh,314,Jhabua,IN.MP.JB,NA,,District,District,,,,,19,314,314
+315,105,IND,India,19,Madhya Pradesh,315,Katni,IN.MP.KA,NA,,District,District,,,,,19,315,315
+316,105,IND,India,19,Madhya Pradesh,316,Mandla,IN.MP.ML,NA,,District,District,,,,,19,316,316
+317,105,IND,India,19,Madhya Pradesh,317,Mandsaur,IN.MP.MS,NA,,District,District,,Mandasor,,,19,317,317
+318,105,IND,India,19,Madhya Pradesh,318,Morena,IN.MP.MO,NA,,District,District,,Tonwarghar,,,19,318,318
+319,105,IND,India,19,Madhya Pradesh,319,Narsimhapur,IN.MP.NA,NA,,District,District,,Narsimhapur,,,19,319,319
+320,105,IND,India,19,Madhya Pradesh,320,Neemuch,IN.MP.NE,NA,,District,District,,,,,19,320,320
+321,105,IND,India,19,Madhya Pradesh,321,Panna,IN.MP.PA,NA,,District,District,,,,,19,321,321
+322,105,IND,India,19,Madhya Pradesh,322,Raisen,IN.MP.RS,NA,,District,District,,,,,19,322,322
+323,105,IND,India,19,Madhya Pradesh,323,Rajgarh,IN.MP.RG,NA,,District,District,,,,,19,323,323
+324,105,IND,India,19,Madhya Pradesh,324,Ratlam,IN.MP.RL,NA,,District,District,,,,,19,324,324
+325,105,IND,India,19,Madhya Pradesh,325,Rewa,IN.MP.RE,NA,,District,District,,,,,19,325,325
+326,105,IND,India,19,Madhya Pradesh,326,Sagar,IN.MP.SG,NA,,District,District,,Saugor,,,19,326,326
+327,105,IND,India,19,Madhya Pradesh,327,Satna,IN.MP.ST,NA,,District,District,,,,,19,327,327
+328,105,IND,India,19,Madhya Pradesh,328,Sehore,IN.MP.SR,NA,,District,District,,,,,19,328,328
+329,105,IND,India,19,Madhya Pradesh,329,Seoni,IN.MP.SO,NA,,District,District,,,,,19,329,329
+330,105,IND,India,19,Madhya Pradesh,330,Shahdol,IN.MP.SL,NA,,District,District,,Sahdol,,,19,330,330
+331,105,IND,India,19,Madhya Pradesh,331,Shajapur,IN.MP.SJ,NA,,District,District,,,,,19,331,331
+332,105,IND,India,19,Madhya Pradesh,332,Sheopur,IN.MP.SP,NA,,District,District,,Sheopur Kala,,,19,332,332
+333,105,IND,India,19,Madhya Pradesh,333,Shivpuri,IN.MP.SV,NA,,District,District,,Narwar,,,19,333,333
+334,105,IND,India,19,Madhya Pradesh,334,Sidhi,IN.MP.SD,NA,,District,District,,,,,19,334,334
+335,105,IND,India,19,Madhya Pradesh,335,Singrauli,IN.MP.SU,NA,,District,District,,,,,19,335,335
+336,105,IND,India,19,Madhya Pradesh,336,Tikamgarh,IN.MP.TI,NA,,District,District,,,,,19,336,336
+337,105,IND,India,19,Madhya Pradesh,337,Ujjain,IN.MP.UJ,NA,,District,District,,,,,19,337,337
+338,105,IND,India,19,Madhya Pradesh,338,Umaria,IN.MP.UM,NA,,District,District,,,,,19,338,338
+339,105,IND,India,19,Madhya Pradesh,339,Vidisha,IN.MP.VI,NA,,District,District,,,,,19,339,339
+340,105,IND,India,19,Madhya Pradesh,340,West Nimar,IN.MP.WN,NA,,District,District,,Khargone;Khargaon,,,19,340,340
+341,105,IND,India,20,Maharashtra,341,Ahmadnagar,IN.MH.AH,NA,,District,District,,Ahmadnagar,,,20,341,341
+342,105,IND,India,20,Maharashtra,342,Akola,IN.MH.AK,NA,,District,District,,,,,20,342,342
+343,105,IND,India,20,Maharashtra,343,Amravati,IN.MH.AM,NA,,District,District,,"Amaravati, Amraoti, Amaraoti",,,20,343,343
+344,105,IND,India,20,Maharashtra,344,Aurangabad,IN.MH.AU,NA,,District,District,,,,,20,344,344
+345,105,IND,India,20,Maharashtra,345,Bhandara,IN.MH.BH,NA,,District,District,,,,,20,345,345
+346,105,IND,India,20,Maharashtra,346,Bid,IN.MH.BI,NA,,District,District,,Bir|Beed|Bhir|Bidh,,,20,346,346
+347,105,IND,India,20,Maharashtra,347,Buldana,IN.MH.BU,NA,,District,District,,,,,20,347,347
+348,105,IND,India,20,Maharashtra,348,Chandrapur,IN.MH.CH,NA,,District,District,,Chanda,,,20,348,348
+349,105,IND,India,20,Maharashtra,349,Dhule,IN.MH.DH,NA,,District,District,,"Dhulia, West Khandesh",,,20,349,349
+350,105,IND,India,20,Maharashtra,350,Garhchiroli,IN.MH.GA,NA,,District,District,,,,,20,350,350
+351,105,IND,India,20,Maharashtra,351,Gondiya,IN.MH.GO,NA,,District,District,,,,,20,351,351
+352,105,IND,India,20,Maharashtra,352,Hingoli,IN.MH.HI,NA,,District,District,,,,,20,352,352
+353,105,IND,India,20,Maharashtra,353,Jalgaon,IN.MH.JG,NA,,District,District,,East Khandesh,,,20,353,353
+354,105,IND,India,20,Maharashtra,354,Jalna,IN.MH.JN,NA,,District,District,,,,,20,354,354
+355,105,IND,India,20,Maharashtra,355,Kolhapur,IN.MH.KO,NA,,District,District,,,,,20,355,355
+356,105,IND,India,20,Maharashtra,356,Latur,IN.MH.LA,NA,,District,District,,"Kulaba, Kolaba, Kolabad",,,20,356,356
+357,105,IND,India,20,Maharashtra,357,Mumbai City,IN.MH.MC,NA,,District,District,,,,,20,357,357
+358,105,IND,India,20,Maharashtra,358,Mumbai Suburban,IN.MH.MC,NA,,District,District,,,,,20,358,358
+359,105,IND,India,20,Maharashtra,359,Nagpur,IN.MH.NG,NA,,District,District,,,,,20,359,359
+360,105,IND,India,20,Maharashtra,360,Nanded,IN.MH.ND,NA,,District,District,,Nander,,,20,360,360
+361,105,IND,India,20,Maharashtra,361,Nandurbar,IN.MH.NB,NA,,District,District,,,,,20,361,361
+362,105,IND,India,20,Maharashtra,362,Nashik,IN.MH.NS,NA,,District,District,,Nasik,,,20,362,362
+363,105,IND,India,20,Maharashtra,363,Osmanabad,IN.MH.OS,NA,,District,District,,,,,20,363,363
+364,105,IND,India,20,Maharashtra,364,Palghar,,NA,,District,District,,<Null>,,,20,364,364
+365,105,IND,India,20,Maharashtra,364,Palghar, ,NA,,District,District,,<Null>,,,20,364,365
+366,105,IND,India,20,Maharashtra,365,Parbhani,IN.MH.PA,NA,,District,District,,,,,20,365,366
+367,105,IND,India,20,Maharashtra,366,Pune,IN.MH.PU,NA,,District,District,,Poona,,,20,366,367
+368,105,IND,India,20,Maharashtra,367,Raigarh,IN.MH.RG,NA,,District,District,,Raygad,,,20,367,368
+369,105,IND,India,20,Maharashtra,368,Ratnagiri,IN.MH.RT,NA,,District,District,,,,,20,368,369
+370,105,IND,India,20,Maharashtra,369,Sangli,IN.MH.SN,NA,,District,District,,South Satara,,,20,369,370
+371,105,IND,India,20,Maharashtra,370,Satara,IN.MH.ST,NA,,District,District,,North Satara,,,20,370,371
+372,105,IND,India,20,Maharashtra,371,Sindhudurg,IN.MH.SI,NA,,District,District,,"Kudal, Sindhdurg",,,20,371,372
+373,105,IND,India,20,Maharashtra,372,Solapur,IN.MH.SO,NA,,District,District,,Sholapur,,,20,372,373
+374,105,IND,India,20,Maharashtra,373,Thane,IN.MH.TH,NA,,District,District,,Thana,,,20,373,374
+375,105,IND,India,20,Maharashtra,374,Wardha,IN.MH.WR,NA,,District,District,,,,,20,374,375
+376,105,IND,India,20,Maharashtra,375,Washim,IN.MH.WS,NA,,District,District,,,,,20,375,376
+377,105,IND,India,20,Maharashtra,376,Yavatmal,IN.MH.YA,NA,,District,District,,Yeotmal,,,20,376,377
+378,105,IND,India,21,Manipur,377,Bishnupur,IN.MN.BI,NA,,District,District,,Bishenpur|Sishnupur,,,21,377,378
+379,105,IND,India,21,Manipur,378,Chandel,IN.MN.CD,NA,,District,District,,Tengnoupal,,,21,378,379
+380,105,IND,India,21,Manipur,379,Churachandpur,IN.MN.CC,NA,,District,District,,Manipur South|Churchandpur,,,21,379,380
+381,105,IND,India,21,Manipur,380,Imphal East,IN.MN.EI,NA,,District,District,,,,,21,380,381
+382,105,IND,India,21,Manipur,381,Imphal West,IN.MN.WI,NA,,District,District,,,,,21,381,382
+383,105,IND,India,21,Manipur,382,Senapati,IN.MN.SE,NA,,District,District,,,,,21,382,383
+384,105,IND,India,21,Manipur,383,Tamenglong,IN.MN.TA,NA,,District,District,,Manipur West,,,21,383,384
+385,105,IND,India,21,Manipur,384,Thoubal,IN.MN.TH,NA,,District,District,,,,,21,384,385
+386,105,IND,India,21,Manipur,385,Ukhrul,IN.MN.UK,NA,,District,District,,"Manipur East, Ukhurul",,,21,385,386
+387,105,IND,India,22,Meghalaya,386,East Garo Hills,IN.ML.EG,NA,,District,District,,,,,22,386,387
+388,105,IND,India,22,Meghalaya,387,East Khasi Hills,IN.ML.EK,NA,,District,District,,,,,22,387,388
+389,105,IND,India,22,Meghalaya,388,Jaintia Hills,IN.ML.JH,NA,,District,District,,,,,22,388,389
+390,105,IND,India,22,Meghalaya,389,North Garo Hills,IN.ML.NG,NA,,District,District,,,,,22,389,390
+391,105,IND,India,22,Meghalaya,390,Ri Bhoi,IN.ML.RB,NA,,District,District,,,,,22,390,391
+392,105,IND,India,22,Meghalaya,391,South Garo Hills,IN.ML.SG,NA,,District,District,,,,,22,391,392
+393,105,IND,India,22,Meghalaya,392,South West Garo Hills,,NA,,District,District,,,,,22,392,393
+394,105,IND,India,22,Meghalaya,393,South West Khasi Hills,,NA,,District,District,,,,,22,393,394
+395,105,IND,India,22,Meghalaya,394,West Garo Hills,IN.ML.WG,NA,,District,District,,,,,22,394,395
+396,105,IND,India,22,Meghalaya,395,West Khasi Hills,IN.ML.WK,NA,,District,District,,,,,22,395,396
+397,105,IND,India,23,Mizoram,396,Aizawl,IN.MZ.AI,NA,,District,District,,Aizawal,,,23,396,397
+398,105,IND,India,23,Mizoram,397,Champhai,IN.MZ.CH,NA,,District,District,,,,,23,397,398
+399,105,IND,India,23,Mizoram,398,Kolasib,IN.MZ.KO,NA,,District,District,,Aizawal,,,23,398,399
+400,105,IND,India,23,Mizoram,399,Lawangtlai,IN.MZ.LA,NA,,District,District,,,,,23,399,400
+401,105,IND,India,23,Mizoram,400,Lunglei,IN.MZ.LU,NA,,District,District,,,,,23,400,401
+402,105,IND,India,23,Mizoram,401,Mamit,IN.MZ.MA,NA,,District,District,,,,,23,401,402
+403,105,IND,India,23,Mizoram,402,Saiha,IN.MZ.SA,NA,,District,District,,Chhimtuipui,,,23,402,403
+404,105,IND,India,23,Mizoram,403,Serchhip,IN.MZ.SE,NA,,District,District,,,,,23,403,404
+405,105,IND,India,24,Nagaland,404,Dimapur,IN.NL.DI,NA,,District,District,,,,,24,404,405
+406,105,IND,India,24,Nagaland,405,Kiphire,IN.NL.KP,NA,,District,District,,Tuenasang,,,24,405,406
+407,105,IND,India,24,Nagaland,406,Kohima,IN.NL.KH,NA,,District,District,,,,,24,406,407
+408,105,IND,India,24,Nagaland,407,Longleng,,NA,,District,District,,Tuenasang,,,24,407,408
+409,105,IND,India,24,Nagaland,408,Mokokchung,IN.NL.MK,NA,,District,District,,Mokochung,,,24,408,409
+410,105,IND,India,24,Nagaland,409,Mon,IN.NL.MN,NA,,District,District,,,,,24,409,410
+411,105,IND,India,24,Nagaland,410,Peren,IN.NL.PE,NA,,District,District,,,,,24,410,411
+412,105,IND,India,24,Nagaland,411,Phek,IN.NL.PH,NA,,District,District,,Pheka,,,24,411,412
+413,105,IND,India,24,Nagaland,412,Tuensang,IN.NL.TS,NA,,District,District,,Tuenasang,,,24,412,413
+414,105,IND,India,24,Nagaland,413,Wokha,IN.NL.WO,NA,,District,District,,,,,24,413,414
+415,105,IND,India,24,Nagaland,414,Zunheboto,IN.NL.ZU,NA,,District,District,,Zanheboto|Zonheboto,,,24,414,415
+416,105,IND,India,25,NCT of Delhi,415,West,IN.DL.WE,NA,,District,District,,,,,25,415,416
+417,105,IND,India,26,Odisha,416,Anugul,IN.OR.AN,NA,,District,District,,,,,26,416,417
+418,105,IND,India,26,Odisha,417,Balangir,IN.OR.BL,NA,,District,District,,Balangir,,,26,417,418
+419,105,IND,India,26,Odisha,418,Baleshwar,IN.OR.BW,NA,,District,District,,"Balasore, Baleswar",,,26,418,419
+420,105,IND,India,26,Odisha,419,Bargarh,IN.OR.BR,NA,,District,District,,,,,26,419,420
+421,105,IND,India,26,Odisha,420,Bauda,IN.OR.BD,NA,,District,District,,,,,26,420,421
+422,105,IND,India,26,Odisha,421,Bhadrak,IN.OR.BH,NA,,District,District,,,,,26,421,422
+423,105,IND,India,26,Odisha,422,Cuttack,IN.OR.CU,NA,,District,District,,,,,26,422,423
+424,105,IND,India,26,Odisha,423,Debagarh,IN.OR.DE,NA,,District,District,,Debagarh,,,26,423,424
+425,105,IND,India,26,Odisha,424,Dhenkanal,IN.OR.DH,NA,,District,District,,,,,26,424,425
+426,105,IND,India,26,Odisha,425,Gajapati,IN.OR.GP,NA,,District,District,,,,,26,425,426
+427,105,IND,India,26,Odisha,426,Ganjam,IN.OR.GN,NA,,District,District,,,,,26,426,427
+428,105,IND,India,26,Odisha,427,Jagatsinghapur,IN.OR.JS,NA,,District,District,,,,,26,427,428
+429,105,IND,India,26,Odisha,428,Jajapur,IN.OR.JP,NA,,District,District,,,,,26,428,429
+430,105,IND,India,26,Odisha,429,Jharsuguda,IN.OR.JH,NA,,District,District,,,,,26,429,430
+431,105,IND,India,26,Odisha,430,Kalahandi,IN.OR.KL,NA,,District,District,,,,,26,430,431
+432,105,IND,India,26,Odisha,431,Kandhamal,IN.OR.KN,NA,,District,District,,Phulabani,,,26,431,432
+433,105,IND,India,26,Odisha,432,Kendrapara,IN.OR.KP,NA,,District,District,,,,,26,432,433
+434,105,IND,India,26,Odisha,433,Kendujhar,IN.OR.KJ,NA,,District,District,,Kendujhar,,,26,433,434
+435,105,IND,India,26,Odisha,434,Khordha,IN.OR.KH,NA,,District,District,,,,,26,434,435
+436,105,IND,India,26,Odisha,435,Koraput,IN.OR.KO,NA,,District,District,,,,,26,435,436
+437,105,IND,India,26,Odisha,436,Malkangiri,IN.OR.ML,NA,,District,District,,,,,26,436,437
+438,105,IND,India,26,Odisha,437,Mayurbhanj,IN.OR.MY,NA,,District,District,,,,,26,437,438
+439,105,IND,India,26,Odisha,438,Nabarangapur,IN.OR.NB,NA,,District,District,,,,,26,438,439
+440,105,IND,India,26,Odisha,439,Nayagarh,IN.OR.NY,NA,,District,District,,,,,26,439,440
+441,105,IND,India,26,Odisha,440,Nuapada,IN.OR.NU,NA,,District,District,,,,,26,440,441
+442,105,IND,India,26,Odisha,441,Puri,IN.OR.PU,NA,,District,District,,,,,26,441,442
+443,105,IND,India,26,Odisha,442,Rayagada,IN.OR.RA,NA,,District,District,,,,,26,442,443
+444,105,IND,India,26,Odisha,443,Sambalpur,IN.OR.SA,NA,,District,District,,,,,26,443,444
+445,105,IND,India,26,Odisha,444,Subarnapur,IN.OR.SO,NA,,District,District,,Balangir,,,26,444,445
+446,105,IND,India,26,Odisha,445,Sundargarh,IN.OR.SU,NA,,District,District,,Sundagarh|Bonai,,,26,445,446
+447,105,IND,India,27,Puducherry,446,Karaikal,IN.PY.KA,NA,,District,District,,Karaikkal|Karikal,,,27,446,447
+448,105,IND,India,27,Puducherry,447,Mahe,IN.PY.MA,NA,,District,District,,,,,27,447,448
+449,105,IND,India,27,Puducherry,448,Puducherry,IN.PY.PO,NA,,District,District,,Pondicherry|Puduchcheri|Pondichéry,,,27,448,449
+450,105,IND,India,27,Puducherry,449,Yanam,IN.PY.YA,NA,,District,District,,Yanaon,,,27,449,450
+451,105,IND,India,28,Punjab,450,Amritsar,IN.PB.AM,NA,,District,District,,,,,28,450,451
+452,105,IND,India,28,Punjab,451,Barnala,IN.PB.BL,NA,,District,District,,Sangroor,,,28,451,452
+453,105,IND,India,28,Punjab,452,Bathinda,IN.PB.BA,NA,,District,District,,Bhatinda,,,28,452,453
+454,105,IND,India,28,Punjab,453,Faridkot,IN.PB.FR,NA,,District,District,,Fridkot,,,28,453,454
+455,105,IND,India,28,Punjab,454,Fatehgarh Sahib,IN.PB.FT,NA,,District,District,,,,,28,454,455
+456,105,IND,India,28,Punjab,455,Fazilka,IN.PB.FI,NA,,District,District,,"Ferojpur, Firozepur, Ferozepore, Feruzpur",,,28,455,456
+457,105,IND,India,28,Punjab,456,Firozpur,IN.PB.FI,NA,,District,District,,"Ferojpur, Firozepur, Ferozepore, Feruzpur",,,28,456,457
+458,105,IND,India,28,Punjab,457,Gurdaspur,IN.PB.GU,NA,,District,District,,Guardaspur,,,28,457,458
+459,105,IND,India,28,Punjab,458,Hoshiarpur,IN.PB.HO,NA,,District,District,,,,,28,458,459
+460,105,IND,India,28,Punjab,459,Jalandhar,IN.PB.JA,NA,,District,District,,Jullundur,,,28,459,460
+461,105,IND,India,28,Punjab,460,Kapurthala,IN.PB.KA,NA,,District,District,,,,,28,460,461
+462,105,IND,India,28,Punjab,461,Ludhiana,IN.PB.LU,NA,,District,District,,,,,28,461,462
+463,105,IND,India,28,Punjab,462,Mansa,IN.PB.MA,NA,,District,District,,,,,28,462,463
+464,105,IND,India,28,Punjab,463,Moga,IN.PB.MO,NA,,District,District,,,,,28,463,464
+465,105,IND,India,28,Punjab,464,Muktsar,IN.PB.MU,NA,,District,District,,,,,28,464,465
+466,105,IND,India,28,Punjab,465,Pathankot,,NA,,District,District,,Guardaspur,,,28,465,466
+467,105,IND,India,28,Punjab,466,Patiala,IN.PB.PA,NA,,District,District,,,,,28,466,467
+468,105,IND,India,28,Punjab,467,Rupnagar,IN.PB.RP,NA,,District,District,,"Ropar, Roop Nagar, Rupar",,,28,467,468
+469,105,IND,India,28,Punjab,468,Sahibzada Ajit Singh Nagar,,NA,,District,District,,"Ropar, Roop Nagar, Rupar",,,28,468,469
+470,105,IND,India,28,Punjab,469,Sangrur,IN.PB.SR,NA,,District,District,,Sangroor,,,28,469,470
+471,105,IND,India,28,Punjab,470,Shahid Bhagat Singh Nagar,IN.PB.NS,NA,,District,District,,,,,28,470,471
+472,105,IND,India,28,Punjab,471,Tarn Taran,IN.PB.TT,NA,,District,District,,,,,28,471,472
+473,105,IND,India,29,Rajasthan,472,Ajmer,IN.RJ.AJ,NA,,District,District,,,,,29,472,473
+474,105,IND,India,29,Rajasthan,473,Alwar,IN.RJ.AL,NA,,District,District,,,,,29,473,474
+475,105,IND,India,29,Rajasthan,474,Banswara,IN.RJ.BS,NA,,District,District,,,,,29,474,475
+476,105,IND,India,29,Rajasthan,475,Baran,IN.RJ.BR,NA,,District,District,,,,,29,475,476
+477,105,IND,India,29,Rajasthan,476,Barmer,IN.RJ.BM,NA,,District,District,,,,,29,476,477
+478,105,IND,India,29,Rajasthan,477,Bharatpur,IN.RJ.BP,NA,,District,District,,,,,29,477,478
+479,105,IND,India,29,Rajasthan,478,Bhilwara,IN.RJ.BW,NA,,District,District,,Bhilavara,,,29,478,479
+480,105,IND,India,29,Rajasthan,479,Bikaner,IN.RJ.BI,NA,,District,District,,,,,29,479,480
+481,105,IND,India,29,Rajasthan,480,Bundi,IN.RJ.BU,NA,,District,District,,,,,29,480,481
+482,105,IND,India,29,Rajasthan,481,Chittaurgarh,IN.RJ.CH,NA,,District,District,,,,,29,481,482
+483,105,IND,India,29,Rajasthan,482,Churu,IN.RJ.CR,NA,,District,District,,,,,29,482,483
+484,105,IND,India,29,Rajasthan,483,Dausa,IN.RJ.DA,NA,,District,District,,,,,29,483,484
+485,105,IND,India,29,Rajasthan,484,Dhaulpur,IN.RJ.DH,NA,,District,District,,,,,29,484,485
+486,105,IND,India,29,Rajasthan,485,Dungarpur,IN.RJ.DU,NA,,District,District,,,,,29,485,486
+487,105,IND,India,29,Rajasthan,486,Ganganagar,IN.RJ.GA,NA,,District,District,,Sri Ganganagar,,,29,486,487
+488,105,IND,India,29,Rajasthan,487,Hanumangarh,IN.RJ.HA,NA,,District,District,,,,,29,487,488
+489,105,IND,India,29,Rajasthan,488,Jaipur,IN.RJ.JP,NA,,District,District,,Jeipur,,,29,488,489
+490,105,IND,India,29,Rajasthan,489,Jaisalmer,IN.RJ.JS,NA,,District,District,,,,,29,489,490
+491,105,IND,India,29,Rajasthan,490,Jalor,IN.RJ.JL,NA,,District,District,,,,,29,490,491
+492,105,IND,India,29,Rajasthan,491,Jhalawar,IN.RJ.JW,NA,,District,District,,,,,29,491,492
+493,105,IND,India,29,Rajasthan,492,Jhunjhunun,IN.RJ.JJ,NA,,District,District,,Jhunjhunu,,,29,492,493
+494,105,IND,India,29,Rajasthan,493,Jodhpur,IN.RJ.JO,NA,,District,District,,,,,29,493,494
+495,105,IND,India,29,Rajasthan,494,Karauli,IN.RJ.KA,NA,,District,District,,,,,29,494,495
+496,105,IND,India,29,Rajasthan,495,Kota,IN.RJ.KO,NA,,District,District,,Kotah,,,29,495,496
+497,105,IND,India,29,Rajasthan,496,Nagaur,IN.RJ.NA,NA,,District,District,,,,,29,496,497
+498,105,IND,India,29,Rajasthan,497,Pali,IN.RJ.PA,NA,,District,District,,,,,29,497,498
+499,105,IND,India,29,Rajasthan,498,Pratapgarh,IN.RJ.PR,NA,,District,District,,,,,29,498,499
+500,105,IND,India,29,Rajasthan,499,Rajsamand,IN.RJ.RA,NA,,District,District,,,,,29,499,500
+501,105,IND,India,29,Rajasthan,500,Sawai Madhopur,IN.RJ.SM,NA,,District,District,,,,,29,500,501
+502,105,IND,India,29,Rajasthan,501,Sikar,IN.RJ.SK,NA,,District,District,,,,,29,501,502
+503,105,IND,India,29,Rajasthan,502,Sirohi,IN.RJ.SR,NA,,District,District,,,,,29,502,503
+504,105,IND,India,29,Rajasthan,503,Tonk,IN.RJ.TO,NA,,District,District,,,,,29,503,504
+505,105,IND,India,29,Rajasthan,504,Udaipur,IN.RJ.UP,NA,,District,District,,,,,29,504,505
+506,105,IND,India,30,Sikkim,505,East Sikkim,IN.SK.ES,NA,,District,District,,,,,30,505,506
+507,105,IND,India,30,Sikkim,506,North Sikkim,IN.SK.NS,NA,,District,District,,North District,,,30,506,507
+508,105,IND,India,30,Sikkim,507,South Sikkim,IN.SK.SS,NA,,District,District,,South District,,,30,507,508
+509,105,IND,India,30,Sikkim,508,West Sikkim,IN.SK.WS,NA,,District,District,,West District,,,30,508,509
+510,105,IND,India,31,Tamil Nadu,509,Ariyalur,IN.TN.AR,NA,,District,District,,,,,31,509,510
+511,105,IND,India,31,Tamil Nadu,510,Chennai,IN.TN.CH,NA,,District,District,,Madras,,,31,510,511
+512,105,IND,India,31,Tamil Nadu,511,Coimbatore,IN.TN.CM,NA,,District,District,,,,,31,511,512
+513,105,IND,India,31,Tamil Nadu,512,Cuddalore,IN.TN.CU,NA,,District,District,,,,,31,512,513
+514,105,IND,India,31,Tamil Nadu,513,Dharmapuri,IN.TN.DM,NA,,District,District,,Dharampuri,,,31,513,514
+515,105,IND,India,31,Tamil Nadu,514,Dindigul,IN.TN.DI,NA,,District,District,,Anna,,,31,514,515
+516,105,IND,India,31,Tamil Nadu,515,Erode,IN.TN.ED,NA,,District,District,,Periyar,,,31,515,516
+517,105,IND,India,31,Tamil Nadu,516,Kancheepuram,IN.TN.KC,NA,,District,District,,,,,31,516,517
+518,105,IND,India,31,Tamil Nadu,517,Kanniyakumari,IN.TN.KK,NA,,District,District,,,,,31,517,518
+519,105,IND,India,31,Tamil Nadu,518,Karur,IN.TN.KR,NA,,District,District,,,,,31,518,519
+520,105,IND,India,31,Tamil Nadu,519,Krishnagiri,IN.TN.KG,NA,,District,District,,Dharampuri,,,31,519,520
+521,105,IND,India,31,Tamil Nadu,520,Madurai,IN.TN.MA,NA,,District,District,,"Madura, Mathurai",,,31,520,521
+522,105,IND,India,31,Tamil Nadu,521,Nagappattinam,IN.TN.NG,NA,,District,District,,,,,31,521,522
+523,105,IND,India,31,Tamil Nadu,522,Namakkal,IN.TN.NM,NA,,District,District,,,,,31,522,523
+524,105,IND,India,31,Tamil Nadu,523,Perambalur,IN.TN.PE,NA,,District,District,,,,,31,523,524
+525,105,IND,India,31,Tamil Nadu,524,Pudukkottai,IN.TN.PU,NA,,District,District,,Pudukottai,,,31,524,525
+526,105,IND,India,31,Tamil Nadu,525,Ramanathapuram,IN.TN.RA,NA,,District,District,,"Ramananthapuram, Rameswaram, Ramnad",,,31,525,526
+527,105,IND,India,31,Tamil Nadu,526,Salem,IN.TN.SA,NA,,District,District,,,,,31,526,527
+528,105,IND,India,31,Tamil Nadu,527,Sivaganga,IN.TN.SI,NA,,District,District,,Pasumpon Muthuramalinga,,,31,527,528
+529,105,IND,India,31,Tamil Nadu,528,Thanjavur,IN.TN.TJ,NA,,District,District,,Tanjore,,,31,528,529
+530,105,IND,India,31,Tamil Nadu,529,The Nilgiris,IN.TN.NI,NA,,District,District,,Nilgiri,,,31,529,530
+531,105,IND,India,31,Tamil Nadu,530,Theni,IN.TN.TH,NA,,District,District,,,,,31,530,531
+532,105,IND,India,31,Tamil Nadu,531,Thiruvallur,IN.TN.TL,NA,,District,District,,,,,31,531,532
+533,105,IND,India,31,Tamil Nadu,532,Thiruvarur,IN.TN.TR,NA,,District,District,,,,,31,532,533
+534,105,IND,India,31,Tamil Nadu,533,Thoothukkudi,IN.TN.TK,NA,,District,District,,Chidambaranar,,,31,533,534
+535,105,IND,India,31,Tamil Nadu,534,Tiruchirappalli,IN.TN.TC,NA,,District,District,,,,,31,534,535
+536,105,IND,India,31,Tamil Nadu,535,Tirunelveli,IN.TN.TI,NA,,District,District,,,,,31,535,536
+537,105,IND,India,31,Tamil Nadu,536,Tiruppur,IN.TN.TP,NA,,District,District,,,,,31,536,537
+538,105,IND,India,31,Tamil Nadu,537,Tiruvannamalai,IN.TN.TV,NA,,District,District,,,,,31,537,538
+539,105,IND,India,31,Tamil Nadu,538,Vellore,IN.TN.VE,NA,,District,District,,North Arcot,,,31,538,539
+540,105,IND,India,31,Tamil Nadu,539,Viluppuram,IN.TN.VL,NA,,District,District,,,,,31,539,540
+541,105,IND,India,31,Tamil Nadu,540,Virudunagar,IN.TN.VR,NA,,District,District,,Kamarajar,,,31,540,541
+542,105,IND,India,32,Telangana,541,Adilabad,IN.TG.AD,NA,,District,District,,,,,32,541,542
+543,105,IND,India,32,Telangana,542,Hyderabad,IN.TG.HY,NA,,District,District,,,,,32,542,543
+544,105,IND,India,32,Telangana,543,Karimnagar,IN.TG.KA,NA,,District,District,,,,,32,543,544
+545,105,IND,India,32,Telangana,544,Khammam,IN.TG.KH,NA,,District,District,,Khammamamet,,,32,544,545
+546,105,IND,India,32,Telangana,545,Mahbubnagar,IN.TG.MA,NA,,District,District,,Mehbubnagar;Mahaboobnagar,,,32,545,546
+547,105,IND,India,32,Telangana,546,Medak,IN.TG.ME,NA,,District,District,,Sangapeddi,,,32,546,547
+548,105,IND,India,32,Telangana,547,Nalgonda,IN.TG.NA,NA,,District,District,,,,,32,547,548
+549,105,IND,India,32,Telangana,548,Nizamabad,IN.TG.NI,NA,,District,District,,,,,32,548,549
+550,105,IND,India,32,Telangana,549,Ranga Reddy,IN.TG.RA,NA,,District,District,,Rangareddy,,,32,549,550
+551,105,IND,India,32,Telangana,550,Warangal,IN.TG.WA,NA,,District,District,,,,,32,550,551
+552,105,IND,India,33,Tripura,551,Dhalai,IN.TR.DH,NA,,District,District,,,,,33,551,552
+553,105,IND,India,33,Tripura,552,Gomati,,NA,,District,District,,,,,33,552,553
+554,105,IND,India,33,Tripura,553,Khowai,,NA,,District,District,,,,,33,553,554
+555,105,IND,India,33,Tripura,554,North Tripura,IN.TR.NT,NA,,District,District,,,,,33,554,555
+556,105,IND,India,33,Tripura,555,Sipahijala,,NA,,District,District,,,,,33,555,556
+557,105,IND,India,33,Tripura,556,South Tripura,IN.TR.ST,NA,,District,District,,,,,33,556,557
+558,105,IND,India,33,Tripura,557,Unokoti,,NA,,District,District,,,,,33,557,558
+559,105,IND,India,33,Tripura,558,West Tripura,IN.TR.WT,NA,,District,District,,,,,33,558,559
+560,105,IND,India,34,Uttar Pradesh,559,Agra,IN.UP.AG,NA,,District,District,,,,,34,559,560
+561,105,IND,India,34,Uttar Pradesh,560,Aligarh,IN.UP.AL,NA,,District,District,,,,,34,560,561
+562,105,IND,India,34,Uttar Pradesh,561,Allahabad,IN.UP.AH,NA,,District,District,,,,,34,561,562
+563,105,IND,India,34,Uttar Pradesh,562,Ambedkar Nagar,IN.UP.AN,NA,,District,District,,,,,34,562,563
+564,105,IND,India,34,Uttar Pradesh,563,Amethi,,NA,,District,District,,,,,34,563,564
+565,105,IND,India,34,Uttar Pradesh,564,Amroha,,NA,,District,District,,,,,34,564,565
+566,105,IND,India,34,Uttar Pradesh,565,Auraiya,IN.UP.AU,NA,,District,District,,,,,34,565,566
+567,105,IND,India,34,Uttar Pradesh,566,Azamgarh,IN.UP.AZ,NA,,District,District,,,,,34,566,567
+568,105,IND,India,34,Uttar Pradesh,567,Baghpat,IN.UP.BG,NA,,District,District,,,,,34,567,568
+569,105,IND,India,34,Uttar Pradesh,568,Bahraich,IN.UP.BH,NA,,District,District,,,,,34,568,569
+570,105,IND,India,34,Uttar Pradesh,569,Ballia,IN.UP.BL,NA,,District,District,,Balia,,,34,569,570
+571,105,IND,India,34,Uttar Pradesh,570,Balrampur,IN.UP.BP,NA,,District,District,,,,,34,570,571
+572,105,IND,India,34,Uttar Pradesh,571,Banda,IN.UP.BN,NA,,District,District,,,,,34,571,572
+573,105,IND,India,34,Uttar Pradesh,572,Barabanki,IN.UP.BB,NA,,District,District,,,,,34,572,573
+574,105,IND,India,34,Uttar Pradesh,573,Bareilly,IN.UP.BR,NA,,District,District,,Bareilley,,,34,573,574
+575,105,IND,India,34,Uttar Pradesh,574,Basti,IN.UP.BS,NA,,District,District,,,,,34,574,575
+576,105,IND,India,34,Uttar Pradesh,575,Bijnor,IN.UP.BI,NA,,District,District,,Bijnar|Bijnore,,,34,575,576
+577,105,IND,India,34,Uttar Pradesh,576,Budaun,IN.UP.BD,NA,,District,District,,,,,34,576,577
+578,105,IND,India,34,Uttar Pradesh,577,Bulandshahr,IN.UP.BU,NA,,District,District,,"Bulandshahar, Buland Sahar",,,34,577,578
+579,105,IND,India,34,Uttar Pradesh,578,Chandauli,IN.UP.CD,NA,,District,District,,,,,34,578,579
+580,105,IND,India,34,Uttar Pradesh,579,Chitrakoot,IN.UP.CT,NA,,District,District,,,,,34,579,580
+581,105,IND,India,34,Uttar Pradesh,580,Deoria,IN.UP.DE,NA,,District,District,,,,,34,580,581
+582,105,IND,India,34,Uttar Pradesh,581,Etah,IN.UP.EH,NA,,District,District,,,,,34,581,582
+583,105,IND,India,34,Uttar Pradesh,582,Etawah,IN.UP.EW,NA,,District,District,,,,,34,582,583
+584,105,IND,India,34,Uttar Pradesh,583,Faizabad,IN.UP.FZ,NA,,District,District,,Fyzabad,,,34,583,584
+585,105,IND,India,34,Uttar Pradesh,584,Farrukhabad,IN.UP.FR,NA,,District,District,,"Farrukahabad, Ferrukhabad",,,34,584,585
+586,105,IND,India,34,Uttar Pradesh,585,Fatehpur,IN.UP.FT,NA,,District,District,,,,,34,585,586
+587,105,IND,India,34,Uttar Pradesh,586,Firozabad,IN.UP.FI,NA,,District,District,,,,,34,586,587
+588,105,IND,India,34,Uttar Pradesh,587,Gautam Buddha Nagar,IN.UP.GB,NA,,District,District,,,,,34,587,588
+589,105,IND,India,34,Uttar Pradesh,588,Ghaziabad,IN.UP.GZ,NA,,District,District,,,,,34,588,589
+590,105,IND,India,34,Uttar Pradesh,589,Ghazipur,IN.UP.GP,NA,,District,District,,Gajipur,,,34,589,590
+591,105,IND,India,34,Uttar Pradesh,590,Gonda,IN.UP.GN,NA,,District,District,,,,,34,590,591
+592,105,IND,India,34,Uttar Pradesh,591,Gorakhpur,IN.UP.GR,NA,,District,District,,Goruckpur,,,34,591,592
+593,105,IND,India,34,Uttar Pradesh,592,Hamirpur,IN.UP.HM,NA,,District,District,,,,,34,592,593
+594,105,IND,India,34,Uttar Pradesh,593,Hapur,,NA,,District,District,,,,,34,593,594
+595,105,IND,India,34,Uttar Pradesh,594,Hardoi,IN.UP.HR,NA,,District,District,,,,,34,594,595
+596,105,IND,India,34,Uttar Pradesh,595,Hathras,IN.UP.HT,NA,,District,District,,,,,34,595,596
+597,105,IND,India,34,Uttar Pradesh,596,Jalaun,IN.UP.JL,NA,,District,District,,,,,34,596,597
+598,105,IND,India,34,Uttar Pradesh,597,Jaunpur,IN.UP.JU,NA,,District,District,,Jaupur,,,34,597,598
+599,105,IND,India,34,Uttar Pradesh,598,Jhansi,IN.UP.JH,NA,,District,District,,,,,34,598,599
+600,105,IND,India,34,Uttar Pradesh,599,Kannauj,IN.UP.KJ,NA,,District,District,,,,,34,599,600
+601,105,IND,India,34,Uttar Pradesh,600,Kanpur Dehat,IN.UP.KD,NA,,District,District,,Kanpur Rural,,,34,600,601
+602,105,IND,India,34,Uttar Pradesh,601,Kanpur Nagar,IN.UP.KN,NA,,District,District,,Kanpur Rural,,,34,601,602
+603,105,IND,India,34,Uttar Pradesh,602,Kasganj,,NA,,District,District,,,,,34,602,603
+604,105,IND,India,34,Uttar Pradesh,603,Kaushambi,IN.UP.KS,NA,,District,District,,,,,34,603,604
+605,105,IND,India,34,Uttar Pradesh,604,Kushinagar,IN.UP.KU,NA,,District,District,,,,,34,604,605
+606,105,IND,India,34,Uttar Pradesh,605,Lakhimpur Kheri,IN.UP.LK,NA,,District,District,,Kheri,,,34,605,606
+607,105,IND,India,34,Uttar Pradesh,606,Lalitpur,IN.UP.LA,NA,,District,District,,,,,34,606,607
+608,105,IND,India,34,Uttar Pradesh,607,Lucknow,IN.UP.LU,NA,,District,District,,,,,34,607,608
+609,105,IND,India,34,Uttar Pradesh,608,Maharajganj,IN.UP.MG,NA,,District,District,,,,,34,608,609
+610,105,IND,India,34,Uttar Pradesh,609,Mahoba,IN.UP.MH,NA,,District,District,,,,,34,609,610
+611,105,IND,India,34,Uttar Pradesh,610,Mainpuri,IN.UP.MP,NA,,District,District,,,,,34,610,611
+612,105,IND,India,34,Uttar Pradesh,611,Mathura,IN.UP.MT,NA,,District,District,,Muttra,,,34,611,612
+613,105,IND,India,34,Uttar Pradesh,612,Mau,,NA,,District,District,,,,,34,612,613
+614,105,IND,India,34,Uttar Pradesh,613,Meerut,IN.UP.ME,NA,,District,District,,,,,34,613,614
+615,105,IND,India,34,Uttar Pradesh,614,Mirzapur,IN.UP.MI,NA,,District,District,,,,,34,614,615
+616,105,IND,India,34,Uttar Pradesh,615,Moradabad,IN.UP.MO,NA,,District,District,,,,,34,615,616
+617,105,IND,India,34,Uttar Pradesh,616,Muzaffarnagar,IN.UP.MU,NA,,District,District,,,,,34,616,617
+618,105,IND,India,34,Uttar Pradesh,617,Pilibhit,IN.UP.PI,NA,,District,District,,,,,34,617,618
+619,105,IND,India,34,Uttar Pradesh,618,Pratapgarh,IN.UP.PR,NA,,District,District,,"Bela cum Pratapgarh, Partabgarh, Partapgarh",,,34,618,619
+620,105,IND,India,34,Uttar Pradesh,619,Rae Bareli,IN.UP.RB,NA,,District,District,,"Rai Bareli, Rai Bareilly",,,34,619,620
+621,105,IND,India,34,Uttar Pradesh,620,Rampur,IN.UP.RA,NA,,District,District,,,,,34,620,621
+622,105,IND,India,34,Uttar Pradesh,621,Saharanpur,IN.UP.SA,NA,,District,District,,,,,34,621,622
+623,105,IND,India,34,Uttar Pradesh,622,Sambhal, ,NA,,District,District,,,,,34,622,623
+624,105,IND,India,34,Uttar Pradesh,623,Sant Kabir Nagar,IN.UP.SK,NA,,District,District,,,,,34,623,624
+625,105,IND,India,34,Uttar Pradesh,624,Sant Ravi Das Nagar,IN.UP.SR,NA,,District,District,,,,,34,624,625
+626,105,IND,India,34,Uttar Pradesh,625,Shahjahanpur,IN.UP.SJ,NA,,District,District,,Shahajahanpur,,,34,625,626
+627,105,IND,India,34,Uttar Pradesh,626,Shamli,,NA,,District,District,,,,,34,626,627
+628,105,IND,India,34,Uttar Pradesh,627,Shravasti,IN.UP.SV,NA,,District,District,,,,,34,627,628
+629,105,IND,India,34,Uttar Pradesh,628,Siddharth Nagar,IN.UP.SN,NA,,District,District,,Sidharthnagar,,,34,628,629
+630,105,IND,India,34,Uttar Pradesh,629,Sitapur,IN.UP.SI,NA,,District,District,,,,,34,629,630
+631,105,IND,India,34,Uttar Pradesh,630,Sonbhadra,IN.UP.SO,NA,,District,District,,Sonebhadra,,,34,630,631
+632,105,IND,India,34,Uttar Pradesh,631,Sultanpur,IN.UP.SU,NA,,District,District,,,,,34,631,632
+633,105,IND,India,34,Uttar Pradesh,632,Unnao,IN.UP.UN,NA,,District,District,,"Unnao Nagar, Unao",,,34,632,633
+634,105,IND,India,34,Uttar Pradesh,633,Varanasi,IN.UP.VA,NA,,District,District,,Benares,,,34,633,634
+635,105,IND,India,35,Uttarakhand,634,Almora,IN.UT.AL,NA,,District,District,,,,,35,634,635
+636,105,IND,India,35,Uttarakhand,635,Bageshwar,IN.UT.BA,NA,,District,District,,,,,35,635,636
+637,105,IND,India,35,Uttarakhand,636,Chamoli,IN.UT.CL,NA,,District,District,,Chamoli cum Gopeshwar,,,35,636,637
+638,105,IND,India,35,Uttarakhand,637,Champawat,IN.UT.CP,NA,,District,District,,,,,35,637,638
+639,105,IND,India,35,Uttarakhand,638,Dehradun,IN.UT.DD,NA,,District,District,,,,,35,638,639
+640,105,IND,India,35,Uttarakhand,639,Garhwal,,NA,,District,District,,Garhwal,,,35,639,640
+641,105,IND,India,35,Uttarakhand,640,Hardwar,IN.UT.HA,NA,,District,District,,Hardwar,,,35,640,641
+642,105,IND,India,35,Uttarakhand,641,Nainital,IN.UT.NA,NA,,District,District,,,,,35,641,642
+643,105,IND,India,35,Uttarakhand,642,Pithoragarh,IN.UT.PI,NA,,District,District,,,,,35,642,643
+644,105,IND,India,35,Uttarakhand,643,Rudraprayag,IN.UT.RP,NA,,District,District,,,,,35,643,644
+645,105,IND,India,35,Uttarakhand,644,Tehri Garhwal,IN.UT.TG,NA,,District,District,,Tehri|Narendranagar|Tehri Garwal,,,35,644,645
+646,105,IND,India,35,Uttarakhand,645,Udham Singh Nagar,IN.UT.US,NA,,District,District,,,,,35,645,646
+647,105,IND,India,35,Uttarakhand,646,Uttarkashi,IN.UT.UT,NA,,District,District,,,,,35,646,647
+648,105,IND,India,36,West Bengal,647,Alipurduar,,NA,,District,District,,,,,36,647,648
+649,105,IND,India,36,West Bengal,648,Bankura,IN.WB.BN,NA,,District,District,,,,,36,648,649
+650,105,IND,India,36,West Bengal,649,Barddhaman,IN.WB.BR,NA,,District,District,,,,,36,649,650
+651,105,IND,India,36,West Bengal,650,Birbhum,IN.WB.BI,NA,,District,District,,,,,36,650,651
+652,105,IND,India,36,West Bengal,651,Dakshin Dinajpur,IN.WB.DD,NA,,District,District,,Dinajpur(South),,,36,651,652
+653,105,IND,India,36,West Bengal,652,Darjiling,IN.WB.DA,NA,,District,District,,,,,36,652,653
+654,105,IND,India,36,West Bengal,653,Haora,IN.WB.HR,NA,,District,District,,,,,36,653,654
+655,105,IND,India,36,West Bengal,654,Hugli,IN.WB.HG,NA,,District,District,,,,,36,654,655
+656,105,IND,India,36,West Bengal,655,Jalpaiguri,IN.WB.JA,NA,,District,District,,,,,36,655,656
+657,105,IND,India,36,West Bengal,656,Koch Bihar,IN.WB.KB,NA,,District,District,,,,,36,656,657
+658,105,IND,India,36,West Bengal,657,Kolkata,IN.WB.KO,NA,,District,District,,Calcutta,,,36,657,658
+659,105,IND,India,36,West Bengal,658,Maldah,IN.WB.MA,NA,,District,District,,,,,36,658,659
+660,105,IND,India,36,West Bengal,659,Murshidabad,IN.WB.MU,NA,,District,District,,,,,36,659,660
+661,105,IND,India,36,West Bengal,660,Nadia,IN.WB.NA,NA,,District,District,,,,,36,660,661
+662,105,IND,India,36,West Bengal,661,North 24 Parganas,IN.WB.PN,NA,,District,District,,,,,36,661,662
+663,105,IND,India,36,West Bengal,662,Pashchim Medinipur,IN.WB.WM,NA,,District,District,,Paschim Medinipur,,,36,662,663
+664,105,IND,India,36,West Bengal,663,Purba Medinipur,IN.WB.EM,NA,,District,District,,Purba Medinipur,,,36,663,664
+665,105,IND,India,36,West Bengal,664,Puruliya,IN.WB.PU,NA,,District,District,,,,,36,664,665
+666,105,IND,India,36,West Bengal,665,South 24 Parganas,IN.WB.PS,NA,,District,District,,,,,36,665,666
+667,105,IND,India,36,West Bengal,666,Uttar Dinajpur,IN.WB.UD,NA,,District,District,,,,,36,666,667
