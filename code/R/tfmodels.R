@@ -91,7 +91,10 @@ build_custom_regressor <- function(data,
 }
 
 
-build_regressor <- function(data, response = 'median_mpce'){
+build_regressor <- function(data,
+                            response='median_mpce',
+                            model_loc="./tf/dnn/tst1",
+                            save_loc="./tf/dnn/model_tst1"){
   library(tensorflow)
   library(tfestimators)
   library(modelr)
@@ -103,14 +106,15 @@ build_regressor <- function(data, response = 'median_mpce'){
   feature_columns <- feature_columns(column_numeric(setdiff(colnames(data),response)))
   
   model <- dnn_regressor(feature_columns=feature_columns,hidden_units=c(3,3),
-                         model_dir = "./tf/dnn/tst1")
-  train(model, input_fn=input_fun(train.data, num_epochs = 200000L),steps = 10000L)
+                         model_dir = model_loc)
+  train(model, input_fn=input_fun(train.data, num_epochs = 20000L),steps = 1000L)
   eval <- evaluate(model, input_fn = input_fun(test.data), steps = 10L)
-  tensorboard(log_dir = "./tf/dnn/tst1", launch_browser = TRUE)
+  tensorboard(log_dir = model_loc, launch_browser = TRUE)
   print(eval)
   #tensorboard(log_dir = "./tmp/custom_reg", launch_browser = TRUE)
   res <- predict(model, input_fn = input_fun(data))
   print(summary(lm(unlist(res)~data[,response()])))
+  export_savedmodel(model, save_loc)
   return(res)
 }
 
