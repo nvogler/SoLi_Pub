@@ -18,3 +18,8 @@ get_table <- function(tablename = 'nss72.districtwise_mpce',
   return(data)
   }
 
+#' @name get_map
+#' @description District map
+#' @param 
+#' @param 
+get_map <- function(){return(get_table('nss72.district_map'))}

@@ -1,3 +1,4 @@
+#http://commercedataservice.github.io/tutorial_viirs_part1/
 library(foreign)
 library(rgdal)
 library(s2)
