@@ -56,6 +56,8 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
   ################Build Inline function#######################
   create_poly_stats <- function(i,sp_obj,rasterdata){
     pixel_dist <- get_poly_pixels(sp_obj[i,], rasterdata)
+    if(any(is.na(pixel_dist))){pixel_dist[is.na(pixel_dist)] <- 0}
+    
     shp_idx <- as.integer(as.character(sp_obj@data$ID_2[i]))
     median_rad <- median(pixel_dist, na.rm = T)
     avg_rad <- mean(pixel_dist,na.rm = T)
@@ -66,7 +68,7 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
     fracts <- 10
     fract_names <- paste0('fract',as.character(1:fracts))
     brk <- seq(min(pixel_dist), max(pixel_dist), length.out = (fracts + 1))
-    tmp.histo <- hist(pixel_dist, breaks=brk)
+    tmp.histo <- hist(pixel_dist, breaks=brk, plot = FALSE)
     fract_dist <- tmp.histo$counts/sum(tmp.histo$counts)
     names(fract_dist) <- fract_names
     df <- data.frame(shp_idx,median_rad,avg_rad,var_rad,
@@ -118,7 +120,7 @@ mpce_raster <- function(mpce,
                         cloud_folder = 'earthengine/Transformed_assets',
                         bucket_name = 'soli_ee_data'){
   dims <- dim(ref_raster)
-  r <-  raster(nrow = dims[1], ncol = dims[2])
+  r <-  raster(nrow = floor(dims[1]/10), ncol = floor(dims[2])/10)
   print('Base raster built')
   extent(r) <- extent(sp_obj)
   print('Rasterize information')

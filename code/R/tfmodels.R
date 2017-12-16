@@ -9,6 +9,14 @@ input_fun <- function(data,num_epochs = 1){
   input_fn(data,features = features(data), response = response(), num_epochs=num_epochs)
 }
 
+#'@name pred_input_fn
+#'@description
+#'@param data
+#'@param num_epochs
+pred_input_fun <- function(data,num_epochs = 1){
+  input_fn(data,features = features(data), num_epochs=num_epochs)
+}
+
 #'@name model_fun
 #'@description Customize the Estimator
 #'@param features
@@ -94,7 +102,10 @@ build_custom_regressor <- function(data,
 build_regressor <- function(data,
                             response='median_mpce',
                             model_loc="./tf/dnn/tst2",
-                            save_loc="./tf/dnn/model_tst2"){
+                            save_loc="./tf/dnn/model_tst2",
+                            no_epochs = 200000L,
+                            no_steps = 10000L,
+                            checkpoint = NULL){
   library(tensorflow)
   library(tfestimators)
   library(modelr)
@@ -108,12 +119,13 @@ build_regressor <- function(data,
   model <- dnn_regressor(feature_columns=feature_columns,
                          hidden_units=c(neurons,neurons,neurons),
                          model_dir = model_loc)
-  train(model, input_fn=input_fun(train.data, num_epochs = 2000000L),steps = 100000L)
+  train(model, input_fn=input_fun(train.data, num_epochs = no_epochs),
+        steps = no_steps)
   eval <- evaluate(model, input_fn = input_fun(test.data), steps = 10L)
   tensorboard(log_dir = model_loc, launch_browser = TRUE)
   print(eval)
   #tensorboard(log_dir = "./tmp/custom_reg", launch_browser = TRUE)
-  res <- predict(model, input_fn = input_fun(data))
+  res <- predict(model, input_fn = input_fun(data),checkpoint_path = checkpoint)
   print(summary(lm(unlist(res)~data[,response()])))
   export_savedmodel(model, save_loc)
   saveRDS(model,paste0('./tf/tf_model.Rds'))
@@ -128,7 +140,7 @@ tf_predict <- function(newdata,model_loc){
   feature_columns <- feature_columns(column_numeric(colnames(newdata)))
   model <- dnn_regressor(feature_columns=feature_columns,
                          hidden_units=c(neurons,neurons,neurons),model_dir = model_loc)
-  res <- predict(model, input_fn = input_fun(data))
+  res <- predict(model, input_fn = pred_input_fun(newdata))
   #res <- predict(input_fn = input_fun(data), checkpoint_path = model_loc)
   return(unlist(res))
 }
