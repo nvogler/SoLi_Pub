@@ -23,13 +23,13 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
   -- Downloads the most recent image from the dataset and prepares it for transformation 
   
 ## Transfer downloaded image(s) to GCP bucket for transformation  
-  --(4) Run cell.
+  --(4) Run cell.  
   -- Transfers image(s) from the directory local to the script to a GCP bucket accessible by the transformation application
   
 # After files have been transformed and uploaded to GCP  
 ## Upload to Earth Engine  
 ### All images in GCP bucket (project intialization only)  
-  --(5.i) Run this cell on initialization of the project only 
+  --(5.i) Run this cell on initialization of the project only   
   -- Uploads all images in the folder to the Earth Engine  
   
 ### New imges in GCP bucket (project update) 
