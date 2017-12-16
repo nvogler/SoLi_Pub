@@ -109,10 +109,10 @@ def TransferLocalToGCP(transfers):
         stdout.write("\nTransferring files to GCP...\n")
         # Transfer 32bit
         tsf_32 = '32bit/' + filename
-        os.system(!gsutil cp '$tsf_32' gs://soli_ee_data/earthengine/VIIRS/india_32bit)
+        os.system("gsutil cp '$tsf_32' gs://soli_ee_data/earthengine/VIIRS/india_32bit")
         # Transfer 8bit
         tsf_8 = '8bit/' + filename
-        os.system(!gsutil cp '$tsf_8' gs://soli_ee_data/earthengine/VIIRS/india_8bit)
+        os.system("gsutil cp '$tsf_8' gs://soli_ee_data/earthengine/VIIRS/india_8bit")
 
     stdout.write("\nComplete.\n")
     stdout.flush()
@@ -134,7 +134,7 @@ def UploadAllToEarthEngine():
       print ("Filename: " + xfer_file)
       # Upload to Earth Engine
       try:
-        os.system(!earthengine upload image --asset_id=users/nvogler/soli/'$asset_id' gs://soli_ee_data/earthengine/Transformed_assets/'$xfer_file')
+        os.system("earthengine upload image --asset_id=users/nvogler/soli/" + str(asset_id) + "gs://soli_ee_data/earthengine/Transformed_assets/" + str(xfer_file))
       except(e):
         print ("Error uploading image to Earth Engine.\n" + str(e))
 
@@ -162,7 +162,7 @@ def UploadNewToEarthEngine():
       print ("Filename: " + xfer_file)
       # Upload to Earth Engine
       try:
-        os.system(!earthengine upload image --asset_id=users/nvogler/soli/'$asset_id' gs://soli_ee_data/earthengine/Transformed_assets/'$xfer_file')
+        os.system("earthengine upload image --asset_id=users/nvogler/soli/'$asset_id' gs://soli_ee_data/earthengine/Transformed_assets/'$xfer_file")
       except(e):
         print ("Error uploading image to Earth Engine.\n" + str(e))
 
