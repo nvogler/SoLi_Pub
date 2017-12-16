@@ -1,18 +1,38 @@
 # Earth Engine API interfacing using Python
 The scripts in the folder will help extract raster geotiff files from the Earth Engine API.
-It also helps convert survey data extracted from BigQuery to raster images (stored in survey raster).
+It also helps convert survey data extracted from BigQuery to raster images (stored in survey raster).  
+  
+Follow the steps outlined below to completed the process. Steps 1, 2, and 4 apply to both the intitialization path and teh update path. Steps 3 and 5 are split between the paths. Follow X.i for project initialization and X.u for project updating.
 
-## Connecting to the datalab, opening iPython notebook
+## Connecting to the datalab, opening iPython notebook  
 
-## Initialize, authorize connection to the Earth Engine
-
-## Import packages and define functions
-
-## Pull Images
-### Initial Pull (All images)
-
-### Update Pull (New image only)
-
-## Transfer downloaded image(s) to GCP bucket for transformation
-
-## Upload to Earth Engine
+## Initialize, authorize connection to the Earth Engine  
+ --(1) Run cell.  
+ --(Failure) On authorization failure, completed steps outlined in the authorize_notebook_server.ipynb notebook  
+  
+## Import required packages and define functions  
+  --(2) Run cell.  
+  -- Description  
+## Pull Image Collection    
+### Initial Pull (All images)  
+  --(3.i) Run this cell on initialization of the project only  
+  -- Downloads all available images from the dataset and prepares them for transformation  
+  
+### Update Pull (New image only)  
+  -- (3.u) Run this cell to pull the most recent image  
+  -- Downloads the most recent image from the dataset and prepares it for transformation 
+  
+## Transfer downloaded image(s) to GCP bucket for transformation  
+  --(4) Run cell.
+  -- Transfers image(s) from the directory local to the script to a GCP bucket accessible by the transformation application
+  
+# After files have been transformed and uploaded to GCP  
+## Upload to Earth Engine  
+### All images in GCP bucket (project intialization only)  
+  --(5.i) Run this cell on initialization of the project only 
+  -- Uploads all images in the folder to the Earth Engine  
+  
+### New imges in GCP bucket (project update) 
+  --(5.u) Run this cell to upload only on project updates  
+  -- Uploads only the most recent image to the Earth Engine, instead of all files in the folder  
+  
