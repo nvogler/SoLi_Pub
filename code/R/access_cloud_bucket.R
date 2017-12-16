@@ -38,9 +38,9 @@ raster_to_storage <- function(img_raster,
                               cloud_fname = 'tmp_output.tif',
                               cloud_folder = 'sandbox',
                               bucket_name = 'soli_ee_data'){
-  
+  init_gcp_storage()
   writeRaster(img_raster,'tmp_file.tif','GTiff', overwrite = T)
-  gcs_global_bucket(bucket_name)
+  #gcs_global_bucket(bucket_name)
   gcs_upload(file='tmp_file.tif',type='image/tiff',
              name=paste(cloud_folder,cloud_fname,sep="/"),
              predefinedAcl = 'publicRead',

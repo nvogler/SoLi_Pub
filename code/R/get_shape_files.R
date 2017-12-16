@@ -41,6 +41,8 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
   shape_info <- get_shape()
   sp_obj <- shape_info[['sp_obj']]
   rasterdata <- viirs_to_raster(img_path)
+  rasterdata <- setMinMax(rasterdata)
+  min_val <- minValue(rasterdata); max_val <- maxValue(rasterdata)
   
   ########Initialize parallel setup###########################
   library(parallel)
@@ -58,7 +60,17 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
     median_rad <- median(pixel_dist, na.rm = T)
     avg_rad <- mean(pixel_dist,na.rm = T)
     var_rad <- var(pixel_dist, na.rm = T)
-    df <- data.frame(shp_idx,median_rad,avg_rad,var_rad,stringsAsFactors=FALSE) 
+    min_rad <- min(pixel_dist, na.rm = T)
+    max_rad <- max(pixel_dist, na.rm = T)
+    #Build and see distribution across 10 fractiles
+    fracts <- 10
+    fract_names <- paste0('fract',as.character(1:fracts))
+    brk <- seq(min(pixel_dist), max(pixel_dist), length.out = (fracts + 1))
+    tmp.histo <- hist(pixel_dist, breaks=brk)
+    fract_dist <- tmp.histo$counts/sum(tmp.histo$counts)
+    names(fract_dist) <- fract_names
+    df <- data.frame(shp_idx,median_rad,avg_rad,var_rad,
+                     min_rad, max_rad,t(fract_dist), stringsAsFactors=FALSE) 
     #print(sprintf('Features extracted for %d',df$shp_idx[i]))
     return(df)}
   time_val <- Sys.time()
@@ -79,3 +91,42 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
   names(res.list) <- c('res.df','rasterdata')
   return(res.list)
 }
+
+#' @name shapeid_to_district
+#' @description Converts shape ID 2 into full district code
+#' @param id shape id no.2
+#' @param map dataframe derived from \link[soli]{get_map}
+#' @return numeric or vector
+shapeid_to_district <- function(id,map){
+  tmp_idx <- match(id,map$shp_id_2)
+  dist_code <- map$full_district_code[tmp_idx]
+  return(dist_code)
+}
+
+#' @name mpce_raster
+#' @description Build raster using MPCE data.
+#' @param mpce Predicted MPCE to be visualized.
+#' @param sp_obj Spatial Polygon Objects used to build rasters.
+#' @param ref_raster Reference raster image.
+#' @param fname Filename to be used.
+#' @param cloud_folder Folder used to upload data.
+#' @param bucket_name GCP bucket to work in.
+mpce_raster <- function(mpce,
+                        sp_obj,
+                        ref_raster,
+                        fname='mpce.tif',
+                        cloud_folder = 'earthengine/Transformed_assets',
+                        bucket_name = 'soli_ee_data'){
+  dims <- dim(ref_raster)
+  r <-  raster(nrow = dims[1], ncol = dims[2])
+  print('Base raster built')
+  extent(r) <- extent(sp_obj)
+  print('Rasterize information')
+  #norm_mpce <- median_monthly/max(median_monthly, na.rm = T)*255
+  mpce_rasterdata <- rasterize(sp_obj,r,mpce)
+  print('Transfer to Cloud')
+  raster_to_storage(mpce_rasterdata,cloud_fname = fname,
+                    cloud_folder = cloud_folder,bucket_name = bucket_name)
+  print('Raster stored')
+}
+

@@ -93,8 +93,8 @@ build_custom_regressor <- function(data,
 
 build_regressor <- function(data,
                             response='median_mpce',
-                            model_loc="./tf/dnn/tst1",
-                            save_loc="./tf/dnn/model_tst1"){
+                            model_loc="./tf/dnn/tst2",
+                            save_loc="./tf/dnn/model_tst2"){
   library(tensorflow)
   library(tfestimators)
   library(modelr)
@@ -104,10 +104,11 @@ build_regressor <- function(data,
   
   # construct feature columns
   feature_columns <- feature_columns(column_numeric(setdiff(colnames(data),response)))
-  
-  model <- dnn_regressor(feature_columns=feature_columns,hidden_units=c(3,3),
+  neurons <- ncol(data) - 1
+  model <- dnn_regressor(feature_columns=feature_columns,
+                         hidden_units=c(neurons,neurons,neurons),
                          model_dir = model_loc)
-  train(model, input_fn=input_fun(train.data, num_epochs = 20000L),steps = 1000L)
+  train(model, input_fn=input_fun(train.data, num_epochs = 2000000L),steps = 100000L)
   eval <- evaluate(model, input_fn = input_fun(test.data), steps = 10L)
   tensorboard(log_dir = model_loc, launch_browser = TRUE)
   print(eval)
@@ -115,6 +116,19 @@ build_regressor <- function(data,
   res <- predict(model, input_fn = input_fun(data))
   print(summary(lm(unlist(res)~data[,response()])))
   export_savedmodel(model, save_loc)
+  saveRDS(model,paste0('./tf/tf_model.Rds'))
   return(res)
 }
 
+#with tf.Session(graph=tf.Graph()) as sess:
+# tf.saved_model.loader.load(sess, ["foo-tag"], export_dir)
+tf_predict <- function(newdata,model_loc){
+  # construct feature columns
+  neurons <- ncol(newdata)
+  feature_columns <- feature_columns(column_numeric(colnames(newdata)))
+  model <- dnn_regressor(feature_columns=feature_columns,
+                         hidden_units=c(neurons,neurons,neurons),model_dir = model_loc)
+  res <- predict(model, input_fn = input_fun(data))
+  #res <- predict(input_fn = input_fun(data), checkpoint_path = model_loc)
+  return(unlist(res))
+}
