@@ -12,7 +12,8 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
   
 ## Import required packages and define functions  
   --(2) Run cell.  
-  -- Description  
+  -- Imports packages needed to communicate with the Earth Engine API and to process the images.   
+  
 ## Pull Image Collection    
 ### Initial Pull (All images)  
   --(3.i) Run this cell on initialization of the project only  
