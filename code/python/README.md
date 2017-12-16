@@ -5,7 +5,10 @@ It also helps convert survey data extracted from BigQuery to raster images (stor
 Follow the steps outlined below to completed the process. Steps 1, 2, and 4 apply to both the intitialization path and teh update path. Steps 3 and 5 are split between the paths. Follow X.i for project initialization and X.u for project updating.
 
 ## Connecting to the datalab, opening iPython notebook  
-
+  -- From the Google Cloud Platform Shell, run the following to create a connection to the datalab:  
+  datalab connect datalab-ee-vm-vogler-nvogler  
+  -- Open the VIIRS Query notebook  
+  
 ## Initialize, authorize connection to the Earth Engine  
  --(1) Run cell.  
  --(Failure) On authorization failure, completed steps outlined in the authorize_notebook_server.ipynb notebook  
