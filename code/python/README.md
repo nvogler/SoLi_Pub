@@ -6,7 +6,7 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
 
 ## Connecting to the datalab, opening iPython notebook  
   -- From the Google Cloud Platform Shell, run the following to create a connection to the datalab:  
-  datalab connect datalab-ee-vm-vogler-nvogler  --no-user-checking
+  datalab connect datalab-ee-vm-vogler-nvogler  --no-user-checking   
   -- Browse to /datalab/  
   -- Open VIIRS+Query.ipynb  
   
