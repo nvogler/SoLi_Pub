@@ -6,8 +6,9 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
 
 ## Connecting to the datalab, opening iPython notebook  
   -- From the Google Cloud Platform Shell, run the following to create a connection to the datalab:  
-  datalab connect datalab-ee-vm-vogler-nvogler  
-  -- Open the VIIRS Query notebook  
+  datalab connect datalab-ee-vm-vogler-nvogler  --no-user-checking   
+  -- Browse to /datalab/  
+  -- Open VIIRS+Query.ipynb  
   
 ## Initialize, authorize connection to the Earth Engine  
  --(1) Run cell.  
@@ -30,7 +31,7 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
   --(4) Run cell.  
   -- Transfers image(s) from the directory local to the script to a GCP bucket accessible by the transformation application
   
-# After files have been transformed and uploaded to GCP  
+# AFTER files have been transformed and uploaded to GCP  
 ## Upload to Earth Engine  
 ### All images in GCP bucket (project intialization only)  
   --(5.i) Run this cell on initialization of the project only   
