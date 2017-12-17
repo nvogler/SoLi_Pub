@@ -31,7 +31,7 @@ Follow the steps outlined below to completed the process. Steps 1, 2, and 4 appl
   --(4) Run cell.  
   -- Transfers image(s) from the directory local to the script to a GCP bucket accessible by the transformation application
   
-# After files have been transformed and uploaded to GCP  
+# AFTER files have been transformed and uploaded to GCP  
 ## Upload to Earth Engine  
 ### All images in GCP bucket (project intialization only)  
   --(5.i) Run this cell on initialization of the project only   
