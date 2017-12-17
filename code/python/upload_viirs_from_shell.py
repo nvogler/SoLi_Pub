@@ -3,7 +3,7 @@ import ee
 # Initialize the Earth Engine object, using the authentication credentials.
 ee.Initialize()
 
-def upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/', bit_8 = FALSE):
+def upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/', bit_8 = 0):
     # All Image Files
     ## Create dates List
     dates = list(range(20140101, 20141301, 100)) + \
@@ -14,7 +14,7 @@ def upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/', 
     image_list = {}
     for date in dates:
       ## Create tuple of avg_rad, cf_avg
-      if bit_8 == TRUE:
+      if bit_8 == 1:
         image_list[date] = ((
           ee.Image("NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/" + str(date)).toInt8().select('avg_rad'),
           ee.Image("NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/" + str(date)).toInt8().select('cf_avg')
@@ -37,7 +37,7 @@ def upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/', 
     # Import
     return None
 
-upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/india_8bit/', bit_8 = TRUE)
-upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/india_32bit/', bit_8 = FALSE)
+upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/india_8bit/', bit_8 = 1)
+upload_viirs_from_shell(store_loc = 'soli_test_bucket/manual_upload_test/india_32bit/', bit_8 = 2)
 
 
