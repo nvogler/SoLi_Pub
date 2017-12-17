@@ -48,26 +48,3 @@ raster_to_storage <- function(img_raster,
   print('Transfer complete')
 }
 
-## get bucket info
-#proj_name <- 'peerless-robot-187203'
-#buckets <- gcs_list_buckets(proj_name)
-
-#objects <- gcs_list_objects()
-#parsed_download <- gcs_get_object(objects$name[[1]])
-#img_raw <- gcs_get_object('sandbox/landsat.tif')
-#img_raw <- gcs_get_object('sandbox/districtwise_median_nightlights.tiff')
-#img_raw <- gcs_get_object('earthengine/VIIRS/landsat_8bit.tif',saveToDisk = 'url_down.tif', overwrite = T)
-#img.url.path <- gcs_download_url('earthengine/VIIRS/landsat_8bit.tif')
-#f <- download.file(img.url.path,'url_down.tif', method = 'libcurl')
-library(tiff)
-library(rgdal)
-library(s2)
-library(RCurl)
-#img_raster <- suppressWarnings(tiff::readTIFF(source = img_raw, native = T)) 
-#plot(img_raster)
-
-library(raster)
-
-#sessionInfo()
-#capabilities
-

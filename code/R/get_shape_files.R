@@ -49,6 +49,7 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
   
   total_cores <- detectCores()
   cl <- makeCluster(mc <- getOption("cl.cores", total_cores))
+  clusterEvalQ(cl, .libPaths(c(.libPaths(),"/home/soli/R/x86_64-pc-linux-gnu-library/3.4")))
   clusterEvalQ(cl, library(raster)) 
   clusterExport(cl=cl, varlist=c("sp_obj", "rasterdata",'get_poly_pixels'),
                 envir=environment())
@@ -72,7 +73,8 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
     fract_dist <- tmp.histo$counts/sum(tmp.histo$counts)
     names(fract_dist) <- fract_names
     df <- data.frame(shp_idx,median_rad,avg_rad,var_rad,
-                     min_rad, max_rad,t(fract_dist), stringsAsFactors=FALSE) 
+                     min_rad, max_rad,t(fract_dist), stringsAsFactors=FALSE)
+    df[is.na(df)] <- 0
     #print(sprintf('Features extracted for %d',df$shp_idx[i]))
     return(df)}
   time_val <- Sys.time()

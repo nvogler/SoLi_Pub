@@ -1,10 +1,25 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+
 #' @name main_fn
 #' @description Run the code.
-#' @param none.
-#' @return none.
-main_fn <- function(){
-  #library(devtools)
+#' @param train_flag.
+#' @return predict_all .
+main_fn <- function(train_flag = FALSE, predict_all = FALSE){
+  #Taking command prompt arguments.
+  if(length(args)>0){
+    if(length(args)==1){
+      train_flag <- eval(parse(args[1]))
+    }else{
+      train_flag <- eval(parse(args[1]))
+      predict_all <- eval(parse(args[2]))
+    }
+  }
+  
+  .libPaths(c(.libPaths(),"/home/soli/R/x86_64-pc-linux-gnu-library/3.4"))
+  library(devtools)
   library(stringr)
+  library(rgdal)
   setwd('/home/soli/w205_final_project/code/R')
   source('get_shape_files.R')
   source('access_cloud_bucket.R')
@@ -18,11 +33,12 @@ main_fn <- function(){
   shape_info <- get_shape()
   sp_obj <- shape_info[['sp_obj']]
   
+  if(train_flag==T){
   latest_checkpoint <- train_model(img_path = img_path,
                                    model_loc = "./tf/dnn/tst4",
                                    save_loc = "./tf/dnn/model_tst4",
-                                   no_epochs = 2000000,no_steps = 10000)
-  print(sprintf('Latest checkpoint: %s',latest_checkpoint))
+                                   no_epochs = 200000,no_steps = 1000)
+  print(sprintf('Latest checkpoint: %s',latest_checkpoint))}
   
   #Get all the VIIRS images
   full_folder <- gcs_list_objects(detail = "summary", prefix = "earthengine/VIIRS/india_32bit")
@@ -31,11 +47,12 @@ main_fn <- function(){
   fname_list <- img_files$name
   print('All images in VIIRS')
   print(fname_list)
+  start_idx <- ifelse(predict_all==T,1,length(fname_list))
   
-  for(i in seq(1,length(fname_list))){
-  mod_img_path <- fname_list[i]
-  input_fname <- unlist(str_split(fname_list[i],'/'))[4] #Extract filename
-  output_fname <- paste(str_split(input_fname,"\\.",simplify = T)[1],
+  for(i in seq(start_idx,length(fname_list))){
+    mod_img_path <- fname_list[i]
+    input_fname <- unlist(str_split(fname_list[i],'/'))[4] #Extract filename
+    output_fname <- paste(str_split(input_fname,"\\.",simplify = T)[1],
                         "mpce","tif",sep = ".")
   #browser()
   tst_predict <- predict_mpce(img_path = mod_img_path, model_loc = "./tf/dnn/tst4")
@@ -138,3 +155,4 @@ predict_mpce <- function(img_path,model_loc){
   return(tst_predict)
 }
 
+main_fn(train_flag = T, predict_all = F)

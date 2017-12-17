@@ -99,6 +99,14 @@ build_custom_regressor <- function(data,
 }
 
 
+#'@name build_regressor
+#'@description Build a Canned Deep Neural Network.
+#'@param data Contains training data.
+#'@param response Feature which is chosen as response variable.
+#'@param model_loc For parameter model_dir
+#'@param save_loc Saved model.
+#'@param no_epochs Number of Epochs.
+#'@param model_loc Default New Model. Best model at ./tmp/v211117
 build_regressor <- function(data,
                             response='median_mpce',
                             model_loc="./tf/dnn/tst2",
@@ -107,6 +115,7 @@ build_regressor <- function(data,
                             no_steps = 10000L,
                             checkpoint = NULL){
   library(tensorflow)
+  install_tensorflow()
   library(tfestimators)
   library(modelr)
   partitions <- modelr::resample_partition(data, c(test = 0.2, train = 0.8))
@@ -122,7 +131,7 @@ build_regressor <- function(data,
   train(model, input_fn=input_fun(train.data, num_epochs = no_epochs),
         steps = no_steps)
   eval <- evaluate(model, input_fn = input_fun(test.data), steps = 10L)
-  tensorboard(log_dir = model_loc, launch_browser = TRUE)
+  tensorboard(log_dir = model_loc, launch_browser = FALSE)
   print(eval)
   #tensorboard(log_dir = "./tmp/custom_reg", launch_browser = TRUE)
   res <- predict(model, input_fn = input_fun(data),checkpoint_path = checkpoint)
