@@ -18,4 +18,5 @@ There are two ways to run the code:
     2. Log in with Username: soli Password: password12
     3. **Run the following script:** main_fn(train_flag = FALSE, predict_all = FALSE)
 
-TIFF Files are outputted and stored in Google Cloud Storage (soli_ee_data/earthengine/Transformed_assets)
+TIFF Files are outputted and stored in Google Cloud Storage (soli_ee_data/earthengine/Transformed_assets).
+The **Serving Layer** fetches and uploads the predicted MPCE raster onto Earth Engine using the Python API.
