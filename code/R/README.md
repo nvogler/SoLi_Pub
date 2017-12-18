@@ -15,6 +15,7 @@ There are two ways to run the code:
     
 2. **RStudio**: Installed in an virtual machine from port 8787
     1. **Open RStudio:** http://<VM IP ADDRESS>:8787
-    2. **Run the following script:** main_fn(train_flag = FALSE, predict_all = FALSE)
+    2. Log in with Username: soli Password: password12
+    3. **Run the following script:** main_fn(train_flag = FALSE, predict_all = FALSE)
 
 TIFF Files are outputted and stored in Google Cloud Storage (soli_ee_data/earthengine/Transformed_assets)
