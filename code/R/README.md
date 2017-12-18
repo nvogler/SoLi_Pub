@@ -5,7 +5,7 @@ The analytics layer has been written in R to showcase the ability of seamless in
 2. **SSH to Virtual Machine**: gcloud compute ssh rstudio --zone us-west1-a
 
 There are two ways to run the code:
-1. **Shell**: Go to the following folder: cd /home/saifrais/w205_final_project/code/R
+1. **Shell**: Go to the following folder: cd /home/soli/w205_final_project/code/R
     1. **Run script main:** >Rscript main_script.R
         1. train_flag: Whether the model needs to be trained? TRUE OR FALSE (DEFAULT: FALSE)
         2. predict_all: Whether predictions have to made on all or latest period images? (DEFAULT: FALSE)
