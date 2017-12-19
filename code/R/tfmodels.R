@@ -91,7 +91,7 @@ build_custom_regressor <- function(data,
   train(model, input_fn = input_fun(train.data, num_epochs = num_epochs))
   eval <- evaluate(model, input_fn = input_fun(test.data))
   print(eval)
-  tensorboard(log_dir=model_loc,launch_browser = TRUE)
+  tensorboard(log_dir=model_loc,launch_browser = FALSE)
   res <- predict(model, input_fn = input_fun(data))
   plot(unlist(res),data[,response], xlab = 'Estimated Predictions', ylab = 'Actual Response')
   print(summary(lm(unlist(res)~data[,response])))
@@ -115,7 +115,7 @@ build_regressor <- function(data,
                             no_steps = 10000L,
                             checkpoint = NULL){
   library(tensorflow)
-  install_tensorflow()
+  #install_tensorflow()
   library(tfestimators)
   library(modelr)
   partitions <- modelr::resample_partition(data, c(test = 0.2, train = 0.8))
@@ -123,15 +123,15 @@ build_regressor <- function(data,
   test.data  <- as.data.frame(partitions$test)
   
   # construct feature columns
-  feature_columns <- feature_columns(column_numeric(setdiff(colnames(data),response)))
+  feature_cols <- feature_columns(column_numeric(setdiff(colnames(data),response)))
   neurons <- ncol(data) - 1
-  model <- dnn_regressor(feature_columns=feature_columns,
-                         hidden_units=c(neurons,neurons,neurons),
+  model <- dnn_regressor(feature_columns=feature_cols,
+                         hidden_units=c(neurons,neurons),
                          model_dir = model_loc)
   train(model, input_fn=input_fun(train.data, num_epochs = no_epochs),
         steps = no_steps)
   eval <- evaluate(model, input_fn = input_fun(test.data), steps = 10L)
-  tensorboard(log_dir = model_loc, launch_browser = FALSE)
+  tensorboard(log_dir = model_loc, launch_browser = TRUE)
   print(eval)
   #tensorboard(log_dir = "./tmp/custom_reg", launch_browser = TRUE)
   res <- predict(model, input_fn = input_fun(data),checkpoint_path = checkpoint)
@@ -144,10 +144,11 @@ build_regressor <- function(data,
 #with tf.Session(graph=tf.Graph()) as sess:
 # tf.saved_model.loader.load(sess, ["foo-tag"], export_dir)
 tf_predict <- function(newdata,model_loc){
+  library(tfestimators)
   # construct feature columns
   neurons <- ncol(newdata)
-  feature_columns <- feature_columns(column_numeric(colnames(newdata)))
-  model <- dnn_regressor(feature_columns=feature_columns,
+  feature_cols <- feature_columns(column_numeric(colnames(newdata)))
+  model <- dnn_regressor(feature_columns=feature_cols,
                          hidden_units=c(neurons,neurons,neurons),model_dir = model_loc)
   res <- predict(model, input_fn = pred_input_fun(newdata))
   #res <- predict(input_fn = input_fun(data), checkpoint_path = model_loc)

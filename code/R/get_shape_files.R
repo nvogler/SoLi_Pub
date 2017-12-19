@@ -78,7 +78,7 @@ image_to_features <- function(img_path='earthengine/VIIRS/india_32bit/20140101.a
     #print(sprintf('Features extracted for %d',df$shp_idx[i]))
     return(df)}
   time_val <- Sys.time()
-  print(sprintf('Parallel processing initiated at %s', time_val))
+  print(sprintf('Raster aggregation using parallel processing at %s', time_val))
   par.res <- parLapply(cl,seq_len(nrow(sp_obj)),
                        function(i)create_poly_stats(i, sp_obj, rasterdata))
   print(sprintf('Total time taken %s:', Sys.time() - time_val))

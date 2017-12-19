@@ -5,16 +5,20 @@ args = commandArgs(trailingOnly=TRUE)
 #' @description Run the code.
 #' @param train_flag.
 #' @return predict_all .
-main_fn <- function(train_flag = FALSE, predict_all = FALSE){
+main_fn <- function(train_flag = FALSE,
+                    predict_all = FALSE){
   #Taking command prompt arguments.
   if(length(args)>0){
     if(length(args)==1){
-      train_flag <- eval(parse(args[1]))
+      train_flag <- eval(args[1])
     }else{
-      train_flag <- eval(parse(args[1]))
-      predict_all <- eval(parse(args[2]))
+      train_flag <- eval(args[1])
+      predict_all <- eval(args[2])
     }
   }
+  
+  if(file.exists('tmp.tif')){file.remove('tmp.tif')}
+  if(file.exists('tmp_file.tif')){file.remove('tmp_file.tif')}
   
   .libPaths(c(.libPaths(),"/home/soli/R/x86_64-pc-linux-gnu-library/3.4"))
   library(devtools)
@@ -35,9 +39,9 @@ main_fn <- function(train_flag = FALSE, predict_all = FALSE){
   
   if(train_flag==T){
   latest_checkpoint <- train_model(img_path = img_path,
-                                   model_loc = "./tf/dnn/tst4",
-                                   save_loc = "./tf/dnn/model_tst4",
-                                   no_epochs = 200000,no_steps = 1000)
+                                   model_loc = "./tf/dnn/tst_fin",
+                                   save_loc = "./tf/dnn/model_tst_fin",
+                                   no_epochs = 2000000,no_steps = 10000)
   print(sprintf('Latest checkpoint: %s',latest_checkpoint))}
   
   #Get all the VIIRS images
@@ -55,7 +59,7 @@ main_fn <- function(train_flag = FALSE, predict_all = FALSE){
     output_fname <- paste(str_split(input_fname,"\\.",simplify = T)[1],
                         "mpce","tif",sep = ".")
   #browser()
-  tst_predict <- predict_mpce(img_path = mod_img_path, model_loc = "./tf/dnn/tst4")
+  tst_predict <- predict_mpce(img_path = mod_img_path, model_loc = "./tf/dnn/tst_fin")
   ee <- mpce_raster(tst_predict,sp_obj,ref_raster,fname=output_fname,
                     cloud_folder = 'earthengine/Transformed_assets',
                     bucket_name = 'soli_ee_data')
@@ -156,3 +160,4 @@ predict_mpce <- function(img_path,model_loc){
 }
 
 main_fn(train_flag = T, predict_all = F)
+
